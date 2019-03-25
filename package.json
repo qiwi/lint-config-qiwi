@@ -1,0 +1,28 @@
+{
+  "name": "tslint-config-qiwi",
+  "version": "1.0.0",
+  "description": "TSLint rules related to QIWI projects",
+  "main": "src/main/ts/tslint-config-qiwi.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "src/main",
+    "typings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiwi/tslint-config-qiwi.git"
+  },
+  "keywords": [
+    "tslint-config-qiwi"
+  ],
+  "author": "Dima Livshits <d.livshits@qiwi.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiwi/tslint-config-qiwi/issues"
+  },
+  "homepage": "https://github.com/qiwi/tslint-config-qiwi#readme"
+}
