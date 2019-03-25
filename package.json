@@ -7,7 +7,9 @@
     "test": "yaen test:spec",
     "test:gen": "GENERATE_ASSETS=true yarn jest",
     "test:spec": "yarn jest",
-    "jest": "jest --config=jest.config.json"
+    "test_with_report": "yarn test && yarn coveralls_push",
+    "jest": "jest --config=jest.config.json",
+    "coveralls_push": "cat ./coverage/lcov.info | coveralls"
   },
   "files": [
     "README.md",
@@ -34,6 +36,7 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
+    "coveralls": "^3.0.3",
     "jest": "^24.5.0",
     "ts-jest": "^24.0.0",
     "tslint": "^5.14.0",
