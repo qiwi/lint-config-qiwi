@@ -4,7 +4,10 @@
   "description": "TSLint rules related to QIWI projects",
   "main": "src/main/ts/tslint-config-qiwi.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "yaen test:spec",
+    "test:gen": "GENERATE_ASSETS=true yarn jest",
+    "test:spec": "yarn jest",
+    "jest": "jest --config=jest.config.json"
   },
   "files": [
     "README.md",
@@ -28,5 +31,12 @@
   "dependencies": {
     "tslint-config-standard": "^8.0.1",
     "tslint-react": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
   }
 }
