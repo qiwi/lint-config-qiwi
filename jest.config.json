@@ -4,7 +4,7 @@
   "coveragePathIgnorePatterns": [
   ],
   "collectCoverageFrom": [
-    "<rootDir>/src/main/**/*.ts"
+    "<rootDir>/src/main/**/*.(j|t)s"
   ],
   "testMatch": [
     "<rootDir>/src/test/ts/*.ts"

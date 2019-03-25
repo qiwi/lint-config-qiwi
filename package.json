@@ -2,7 +2,7 @@
   "name": "tslint-config-qiwi",
   "version": "1.0.0",
   "description": "TSLint rules related to QIWI projects",
-  "main": "src/main/ts/tslint-config-qiwi.json",
+  "main": "src/main/js/tslint-config-qiwi.js",
   "scripts": {
     "test": "yarn test:spec",
     "test:gen": "GENERATE_ASSETS=true yarn jest",

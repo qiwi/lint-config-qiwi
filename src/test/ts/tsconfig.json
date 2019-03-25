@@ -11,6 +11,7 @@
     "noEmit": true,
     "strictNullChecks": true,
     "module": "commonjs",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
   }
 }
