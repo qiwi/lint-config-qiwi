@@ -9,7 +9,8 @@
     "test:spec": "yarn jest",
     "test_with_report": "yarn test && yarn coveralls_push",
     "jest": "jest --config=jest.config.json",
-    "coveralls_push": "cat ./coverage/lcov.info | coveralls"
+    "coveralls_push": "cat ./coverage/lcov.info | coveralls",
+    "lint": "tslint --config src/main/js/tslint-config-qiwi.js --project tsconfig.json"
   },
   "files": [
     "README.md",
