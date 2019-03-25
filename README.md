@@ -14,3 +14,9 @@ Refer to `tslint-config-qiwi` in your tslint.json:
   "extends": "tslint-config-qiwi"
 }
 ```
+
+## Contribution
+If you find this config not strong enough you may add additional rules, write some tests, and trigger assets generation.
+```bash
+yarn test:gen
+```
