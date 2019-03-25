@@ -4,7 +4,7 @@
   "description": "TSLint rules related to QIWI projects",
   "main": "src/main/ts/tslint-config-qiwi.json",
   "scripts": {
-    "test": "yaen test:spec",
+    "test": "yarn test:spec",
     "test:gen": "GENERATE_ASSETS=true yarn jest",
     "test:spec": "yarn jest",
     "test_with_report": "yarn test && yarn coveralls_push",
