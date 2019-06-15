@@ -9,7 +9,7 @@
 
 ## Install
 ```bash
-yarn add tslint-config-qiwi
+yarn add tslint-config-qiwi -D
 ```
 
 ## Usage
