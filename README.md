@@ -5,7 +5,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/e7fdc4e135133bfb5370/test_coverage)](https://codeclimate.com/github/qiwi/tslint-config-qiwi/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/e7fdc4e135133bfb5370/maintainability)](https://codeclimate.com/github/qiwi/tslint-config-qiwi/maintainability)
 
-TSLint rules related to QIWI projects
+[TSLint](https://github.com/palantir/tslint/) rules related to QIWI projects. Based on [tslint-config-standard](https://github.com/blakeembrey/tslint-config-standard) and [tslint-react](https://github.com/palantir/tslint-react).
 
 ## Install
 ```bash
