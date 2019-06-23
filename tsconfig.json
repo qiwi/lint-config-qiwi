@@ -4,6 +4,7 @@
     "src/test/ts/index.ts"
   ],
   "compilerOptions": {
+    "allowJs": true,
     "target": "esnext",
     "lib": [
       "dom",
