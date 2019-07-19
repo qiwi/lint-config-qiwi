@@ -1,1 +1,2 @@
 ERROR: /rules/trailing-comma-fail.ts:3:7 - Missing trailing comma
+ERROR: /rules/trailing-comma-fail.ts:9:17 - Forbidden trailing comma

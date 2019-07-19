@@ -52,6 +52,7 @@ const rules = {
         'typeLiterals': 'never',
       },
       'singleline': 'never',
+      'esSpecCompliant': true,
     },
   ],
 }
