@@ -9,16 +9,21 @@
 
 ## Install
 ```bash
+npm add tslint-config-qiwi -D
 yarn add tslint-config-qiwi -D
 ```
 
 ## Usage
-Refer to `tslint-config-qiwi` in your tslint.json:
-
+Refer to `tslint-config-qiwi` in your [tslint.json](https://palantir.github.io/tslint/usage/configuration/):
 ```json
 {
   "extends": "tslint-config-qiwi"
 }
+```
+[Run](https://palantir.github.io/tslint/usage/cli/) linting your ts-code:
+```bash
+tslint -p tsconfig.json
+tslint -p tsconfig.json --fix
 ```
 
 ## Contribution
