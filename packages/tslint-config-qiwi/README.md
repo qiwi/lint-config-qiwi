@@ -7,6 +7,7 @@
 
 [TSLint](https://github.com/palantir/tslint/) rules related to QIWI projects. Based on [tslint-config-standard](https://github.com/blakeembrey/tslint-config-standard) and [tslint-react](https://github.com/palantir/tslint-react).
 
+:warning: __TSLint will be deprecated some time in 2019__. See this issue for more details: [Roadmap: TSLint &rarr; ESLint](https://github.com/palantir/tslint/issues/4534).
 ## Install
 ```bash
 npm add tslint-config-qiwi -D
