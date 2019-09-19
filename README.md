@@ -20,10 +20,9 @@ Refer to `tslint-config-qiwi` in your [tslint.json](https://palantir.github.io/t
   "extends": "tslint-config-qiwi"
 }
 ```
-[Run](https://palantir.github.io/tslint/usage/cli/) linting your ts-code:
+[Run](https://palantir.github.io/tslint/usage/cli/) linting your TS code:
 ```bash
-tslint -p tsconfig.json
-tslint -p tsconfig.json --fix
+tslint -p tsconfig.json -c tslint.json --fix
 ```
 
 ## Contribution
