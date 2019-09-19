@@ -1,19 +1,12 @@
 {
-  "include": [
-    "src/main/**/*",
-    "src/test/ts/index.ts"
-  ],
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "allowJs": true,
-    "target": "esnext",
-    "lib": [
-      "dom",
-      "es2015"
-    ],
-    "noEmit": true,
-    "strictNullChecks": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true
+    "baseUrl": "./packages",
+    "paths": {
+      "tslint-config-qiwi": ["./tslint-config-qiwi/src/main/ts"],
+      "tslint-config-qiwi/*": ["./tslint-config-qiwi/src/main/ts/*"],
+      "eslint-config-qiwi": ["./eslint-config-qiwi/src/main/ts"],
+      "eslint-config-qiwi/*": ["./eslint-config-qiwi/src/main/ts/*"]
+    }
   }
 }

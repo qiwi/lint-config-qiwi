@@ -1,0 +1,24 @@
+{
+  "preset": "ts-jest",
+  "collectCoverage": true,
+  "coveragePathIgnorePatterns": [
+  ],
+  "collectCoverageFrom": [
+    "<rootDir>/src/main/**/*.(j|t)s"
+  ],
+  "testMatch": [
+    "<rootDir>/src/test/ts/*.ts"
+  ],
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "<rootDir>/src/test/rules"
+  ],
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ]
+}

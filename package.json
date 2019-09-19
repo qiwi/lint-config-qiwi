@@ -1,68 +1,55 @@
 {
-  "name": "tslint-config-qiwi",
-  "version": "1.1.1",
-  "description": "TSLint rules related to QIWI projects",
-  "main": "src/main/js/tslint-config-qiwi.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "build": "echo 'build is not required' || exit 0",
-    "test": "yarn lint && yarn test:spec",
-    "test:gen": "GENERATE_ASSETS=true yarn jest",
-    "test:spec": "yarn jest",
-    "test:report": "yarn test && yarn coveralls:push",
-    "jest": "jest --config=jest.config.json",
+    "clean": "lerna clean --yes && lerna run clean",
+    "build": "yarn clean && lerna run --stream build",
+    "bootstrap": "lerna bootstrap",
+    "jest": "jest",
+    "test:report": "yarn test && yarn codeclimate:push && yarn coveralls:push",
+    "test": "yarn lint && lerna run --stream test && yarn coverage:merge",
+    "coverage:merge": "node scripts/js/coverage-merge.js",
+    "codeclimate:push": "codeclimate-test-reporter < ./coverage/lcov.info",
     "coveralls:push": "cat ./coverage/lcov.info | coveralls",
-    "lint": "tslint --config src/main/js/tslint-config-qiwi.js --project tsconfig.json"
-  },
-  "files": [
-    "README.md",
-    "CHANGELOG.md",
-    "src/main"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qiwi/tslint-config-qiwi.git"
-  },
-  "keywords": [
-    "tslint-config-qiwi"
-  ],
-  "author": "Dima Livshits <d.livshits@qiwi.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/qiwi/tslint-config-qiwi/issues"
-  },
-  "homepage": "https://github.com/qiwi/tslint-config-qiwi#readme",
-  "dependencies": {
-    "tslint-config-standard": "^8.0.1",
-    "tslint-react": "^4.1.0"
+    "lint": "tslint -c tslint.json -p tsconfig.json 'packages/**/src/main/*.ts' --fix | snazzy",
+    "docs": "typedoc packages/**/src/main --ignoreCompilerErrors || exit 0"
   },
   "devDependencies": {
-    "semantic-release": "^15.13.24",
-    "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/git": "^7.0.16",
-    "@semantic-release/github": "^5.4.3",
-    "@semantic-release/npm": "^5.1.15",
     "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.2",
+    "@types/lodash": "^4.14.137",
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/commit-analyzer": "^6.3.0",
+    "@semantic-release/git": "7.0.16",
+    "@semantic-release/github": "5.4.2",
+    "@semantic-release/npm": "5.1.13",
+    "@semantic-release/release-notes-generator": "7.3.0",
     "coveralls": "^3.0.6",
+    "esm": "^3.2.25",
     "jest": "^24.9.0",
-    "ts-jest": "^24.1.0",
-    "tslint": "^5.20.0",
-    "typescript": "^3.6.3"
+    "lerna": "^3.16.4",
+    "lodash": "^4.17.15",
+    "replace-in-file": "^4.1.3",
+    "semantic-release": "15.13.21",
+    "semantic-release-monorepo": "6.1.1",
+    "semantic-release-monorepo-hooks": "2.9.5",
+    "semantic-release-plugin-decorators": "^2.0.0",
+    "snazzy": "^8.0.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.19.0",
+    "tslint-config-standard": "^8.0.1",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.5.3",
+    "yargs": "^14.0.0"
   },
-  "release": {
-    "branch": "master",
-    "verifyConditions": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/git"
-    ],
-    "prepare": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/git"
-    ],
-    "publish": [
-      "@semantic-release/npm",
-      "@semantic-release/github"
+  "jest": {
+    "collectCoverage": true,
+    "projects": [
+      "<rootDir>/packages/tslint-config-qiwi/jest.config.json",
+      "<rootDir>/packages/eslint-config-qiwi/jest.config.json"
     ]
   }
 }
