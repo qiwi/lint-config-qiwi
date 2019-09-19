@@ -18,13 +18,5 @@ module.exports = {
   verifyConditions: [
     '@semantic-release/npm',
     '@semantic-release/git'
-  ],
-  monorepo: {
-    analyzeCommits: [
-      '@semantic-release/commit-analyzer'
-    ],
-    generateNotes: [
-      '@semantic-release/release-notes-generator'
-    ]
-  }
+  ]
 };

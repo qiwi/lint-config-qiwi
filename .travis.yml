@@ -17,7 +17,7 @@ after_script:
 
 install:
   - yarn cache clean
-  - sh scripts/install.sh
+  - sh scripts/sh/install.sh
   - yarn run bootstrap
   - yarn run build
 
@@ -29,4 +29,3 @@ deploy:
   skip_cleanup: true
   script:
     - yarn lerna exec --concurrency 1 "npx --no-install semantic-release -e semantic-release-monorepo" && node -e "require('semantic-release-monorepo-hooks').hookAfterAll()"
-
