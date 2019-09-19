@@ -1,0 +1,6 @@
+{
+  "include": [
+    "rules/**/*"
+  ],
+  "extends": "../../../tsconfig.json"
+}
