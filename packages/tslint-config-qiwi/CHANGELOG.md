@@ -1,3 +1,10 @@
+## tslint-config-qiwi [1.1.2](https://github.com/qiwi/tslint-config-qiwi/compare/tslint-config-qiwi@1.1.1...tslint-config-qiwi@1.1.2) (2019-09-19)
+
+
+### Performance Improvements
+
+* **tslint:** add deprecation notice & tech release ([641331d](https://github.com/qiwi/tslint-config-qiwi/commit/641331d))
+
 ## [1.1.1](https://github.com/qiwi/tslint-config-qiwi/compare/v1.1.0...v1.1.1) (2019-07-19)
 
 
