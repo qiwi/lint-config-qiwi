@@ -9,7 +9,7 @@
     "test:gen": "GENERATE_ASSETS=true yarn jest",
     "test:spec": "yarn jest",
     "test:report": "yarn test && yarn coveralls:push",
-    "jest": "jest --config=jest.config.json",
+    "jest": "jest -w=1 --config=jest.config.json",
     "coveralls:push": "cat ./coverage/lcov.info | coveralls",
     "lint": "eslint --config src/main/js/eslint-config-qiwi.js src/main/js/eslint-config-qiwi.js"
   },

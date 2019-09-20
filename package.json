@@ -11,7 +11,7 @@
     "bootstrap": "lerna bootstrap",
     "jest": "jest",
     "test:report": "yarn test && yarn codeclimate:push && yarn coveralls:push",
-    "test": "lerna run --stream test && yarn coverage:merge",
+    "test": "lerna run test --concurrency 1 --stream --no-prefix && yarn coverage:merge",
     "coverage:merge": "node scripts/js/coverage-merge.js",
     "codeclimate:push": "codeclimate-test-reporter < ./coverage/lcov.info",
     "coveralls:push": "cat ./coverage/lcov.info | coveralls",
