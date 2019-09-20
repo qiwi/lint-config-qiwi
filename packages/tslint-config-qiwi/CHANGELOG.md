@@ -1,3 +1,10 @@
+# tslint-config-qiwi [1.2.0](https://github.com/qiwi/tslint-config-qiwi/compare/tslint-config-qiwi@1.1.2...tslint-config-qiwi@1.2.0) (2019-09-20)
+
+
+### Features
+
+* add eslint config ([c4e4aba](https://github.com/qiwi/tslint-config-qiwi/commit/c4e4aba))
+
 ## tslint-config-qiwi [1.1.2](https://github.com/qiwi/tslint-config-qiwi/compare/tslint-config-qiwi@1.1.1...tslint-config-qiwi@1.1.2) (2019-09-19)
 
 
