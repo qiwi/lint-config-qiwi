@@ -20,15 +20,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qiwi/tslint-config-qiwi.git"
+    "url": "git+https://github.com/qiwi/lint-config-qiwi.git"
   },
   "keywords": [
     "eslint-config-qiwi"
   ],
   "bugs": {
-    "url": "https://github.com/qiwi/tslint-config-qiwi/issues"
+    "url": "https://github.com/qiwi/lint-config-qiwi/issues"
   },
-  "homepage": "https://github.com/qiwi/tslint-config-qiwi#readme",
+  "homepage": "https://github.com/qiwi/lint-config-qiwi#readme",
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "devDependencies": {

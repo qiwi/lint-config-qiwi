@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qiwi/tslint-config-qiwi.git"
+    "url": "git+https://github.com/qiwi/lint-config-qiwi.git"
   },
   "keywords": [
     "tslint-config-qiwi"
@@ -28,9 +28,9 @@
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qiwi/tslint-config-qiwi/issues"
+    "url": "https://github.com/qiwi/lint-config-qiwi/issues"
   },
-  "homepage": "https://github.com/qiwi/tslint-config-qiwi#readme",
+  "homepage": "https://github.com/qiwi/lint-config-qiwi#readme",
   "dependencies": {
     "tslint-config-standard": "^8.0.1",
     "tslint-react": "^4.1.0"
