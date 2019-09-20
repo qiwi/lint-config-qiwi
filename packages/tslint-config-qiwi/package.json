@@ -25,7 +25,7 @@
   "keywords": [
     "tslint-config-qiwi"
   ],
-  "author": "Dima Livshits <d.livshits@qiwi.com>",
+  "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/qiwi/tslint-config-qiwi/issues"

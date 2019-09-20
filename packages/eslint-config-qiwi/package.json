@@ -29,7 +29,7 @@
     "url": "https://github.com/qiwi/tslint-config-qiwi/issues"
   },
   "homepage": "https://github.com/qiwi/tslint-config-qiwi#readme",
-  "author": "Dima Livshits <d.livshits@qiwi.com>",
+  "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.4",
