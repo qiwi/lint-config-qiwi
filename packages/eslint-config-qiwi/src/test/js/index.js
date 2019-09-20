@@ -4,7 +4,7 @@ import {join} from 'path'
 import * as config from '../../main/js/eslint-config-qiwi.js'
 
 const OUT_FILENAME = join(__dirname, 'rules.out')
-const ESLINT_CMD = `eslint --config ../../main/js/eslint-config-qiwi.js rules/**/*.ts`
+const ESLINT_CMD = `eslint --config ../../main/js/eslint-config-qiwi.js rules/**/*.js`
 
 /**
  * Remove all absolute paths when persisting.
