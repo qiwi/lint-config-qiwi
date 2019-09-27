@@ -6,7 +6,7 @@
   "scripts": {
     "build": "echo 'build is not required' || exit 0",
     "test": "yarn lint && yarn test:spec",
-    "test:gen": "GENERATE_ASSETS=true yarn jest",
+    "test:gen": "yarn jest -u",
     "test:spec": "yarn jest",
     "test:report": "yarn test && yarn coveralls:push",
     "jest": "jest -w=1 --config=jest.config.json",
@@ -46,7 +46,8 @@
     "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
     "tslint": "^5.20.0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.6.3",
+    "stdstream-snapshot": "^1.2.0"
   },
   "release": {
     "branch": "master",

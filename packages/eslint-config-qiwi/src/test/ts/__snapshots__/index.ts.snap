@@ -1,4 +1,14 @@
-/rules/some-rules.ts
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`eslint-config-qiwi (TypeScript) config works as expected 1`] = `
+Object {
+  "err": Object {
+    "code": 1,
+    "killed": false,
+    "signal": null,
+  },
+  "stderr": "",
+  "stdout": "/src/test/ts/rules/some-rules.ts
    2:7   error  'name' is assigned a value but never used                                 no-unused-vars
    3:7   error  'name' is already defined                                                 no-redeclare
    4:7   error  'namefoo' is never reassigned. Use 'const' instead                        prefer-const
@@ -6,13 +16,13 @@
    4:7   error  'namefoo' is assigned a value but never used                              no-unused-vars
    5:7   error  'message' is never reassigned. Use 'const' instead                        prefer-const
    5:7   error  'message' is assigned a value but never used                              no-unused-vars
-   5:22  error  Unnecessary escape character: \o                                          no-useless-escape
+   5:22  error  Unnecessary escape character: \\\\o                                          no-useless-escape
    6:7   error  'pattern1' is assigned a value but never used                             no-unused-vars
-   6:18  error  Unexpected control character(s) in regular expression: \x1f               no-control-regex
+   6:18  error  Unexpected control character(s) in regular expression: \\\\x1f               no-control-regex
    6:24  error  Extra semicolon                                                           semi
    7:7   error  'pattern2' is assigned a value but never used                             no-unused-vars
    7:29  error  Strings must use singlequote                                              quotes
-   7:29  error  Unexpected control character(s) in regular expression: \x1f               no-control-regex
+   7:29  error  Unexpected control character(s) in regular expression: \\\\x1f               no-control-regex
    7:36  error  Extra semicolon                                                           semi
    9:9   error  'myRegex' is assigned a value but never used                              no-unused-vars
    9:19  error  Empty class                                                               no-empty-character-class
@@ -26,7 +36,7 @@
   27:5   error  Move function declaration to function body root                           no-inner-declarations
   27:14  error  'declaration' is defined but never used                                   no-unused-vars
   27:25  error  Missing space before function parentheses                                 space-before-function-paren
-  30:3   error  Expected space(s) after "if"                                              keyword-spacing
+  30:3   error  Expected space(s) after \\"if\\"                                              keyword-spacing
   30:5   error  There should be no space after this paren                                 space-in-parens
   30:7   error  Unexpected constant condition                                             no-constant-condition
   30:12  error  There should be no space before this paren                                space-in-parens
@@ -39,7 +49,7 @@
   42:48  error  Missing space after =>                                                    arrow-spacing
   42:56  error  'a' is not defined                                                        no-undef
   45:26  error  Missing space before function parentheses                                 space-before-function-paren
-  46:10  error  Redundant use of `await` on a return value                                no-return-await
+  46:10  error  Redundant use of \`await\` on a return value                                no-return-await
   46:21  error  Extra semicolon                                                           semi
   50:3   error  Useless constructor                                                       no-useless-constructor
   55:3   error  Useless constructor                                                       no-useless-constructor
@@ -51,11 +61,13 @@
   62:33  error  Empty block statement                                                     no-empty
   65:1   error  Read-only global 'window' should not be modified                          no-global-assign
 
-/rules/trailing-comma-fail.ts
+/src/test/ts/rules/trailing-comma-fail.ts
   9:17  error  Unexpected trailing comma  comma-dangle
 
-/rules/trailing-comma.ts
+/src/test/ts/rules/trailing-comma.ts
   3:7  error  Unexpected trailing comma  comma-dangle
 
 ✖ 53 problems (53 errors, 0 warnings)
-  17 errors and 0 warnings potentially fixable with the `--fix` option.
+  17 errors and 0 warnings potentially fixable with the \`--fix\` option.",
+}
+`;

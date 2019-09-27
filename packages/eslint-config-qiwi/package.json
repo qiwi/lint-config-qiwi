@@ -6,7 +6,7 @@
   "scripts": {
     "build": "echo 'build is not required' || exit 0",
     "test": "yarn test:spec",
-    "test:gen": "GENERATE_ASSETS=true yarn jest",
+    "test:gen": "yarn jest --updateSnapshot",
     "test:spec": "yarn jest",
     "test:report": "yarn test && yarn coveralls:push",
     "jest": "jest -w=1 --config=jest.config.json",
@@ -37,15 +37,16 @@
     "@semantic-release/github": "^5.4.3",
     "@semantic-release/npm": "^5.1.15",
     "@types/jest": "^24.0.18",
-    "@typescript-eslint/eslint-plugin": "^2.3.0",
-    "@typescript-eslint/parser": "^2.3.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
     "coveralls": "^3.0.6",
     "eslint": "^6.4.0",
     "jest": "^24.9.0",
     "semantic-release": "^15.13.24",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.3",
-    "@swissquote/crafty-preset-jest": "^1.8.0"
+    "@swissquote/crafty-preset-jest": "^1.8.0",
+    "stdstream-snapshot": "^1.2.0"
   },
   "release": {
     "branch": "master",
