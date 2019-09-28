@@ -1,5 +1,5 @@
 # eslint-config-qiwi
-[![Build Status](https://travis-ci.com/qiwi/tslint-config-qiwi.svg?branch=master)](https://travis-ci.com/qiwi/tslint-config-qiwi)
+[![Build Status](https://travis-ci.com/qiwi/lint-config-qiwi.svg?branch=master)](https://travis-ci.com/qiwi/lint-config-qiwi)
 [![npm (tag)](https://img.shields.io/npm/v/eslint-config-qiwi/latest.svg)](https://www.npmjs.com/package/eslint-config-qiwi)
 [![dependencyStatus](https://img.shields.io/david/qiwi/lint-config-qiwi.svg?maxAge=300)](https://david-dm.org/qiwi/lint-config-qiwi)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/test_coverage)](https://codeclimate.com/github/qiwi/lint-config-qiwi/test_coverage)
