@@ -36,11 +36,11 @@
     "tslint-react": "^4.1.0"
   },
   "devDependencies": {
-    "semantic-release": "15.13.27",
-    "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/git": "^7.0.16",
-    "@semantic-release/github": "5.5.4",
-    "@semantic-release/npm": "5.2.0",
+    "semantic-release": "15.13.30",
+    "@semantic-release/changelog": "3.0.5",
+    "@semantic-release/git": "7.0.17",
+    "@semantic-release/github": "5.5.5",
+    "@semantic-release/npm": "5.3.3",
     "@types/jest": "^24.0.18",
     "coveralls": "^3.0.6",
     "jest": "^24.9.0",
