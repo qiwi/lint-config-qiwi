@@ -32,21 +32,21 @@
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "devDependencies": {
-    "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/git": "^7.0.16",
-    "@semantic-release/github": "5.5.4",
-    "@semantic-release/npm": "5.2.0",
-    "@types/jest": "^24.0.18",
-    "@typescript-eslint/eslint-plugin": "^2.3.1",
-    "@typescript-eslint/parser": "^2.3.1",
-    "coveralls": "^3.0.6",
-    "eslint": "^6.4.0",
+    "@semantic-release/changelog": "^3.0.5",
+    "@semantic-release/git": "^7.0.17",
+    "@semantic-release/github": "^5.5.5",
+    "@semantic-release/npm": "^5.3.3",
+    "@types/jest": "^24.0.21",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "coveralls": "^3.0.7",
+    "eslint": "^6.6.0",
     "jest": "^24.9.0",
-    "semantic-release": "15.13.27",
+    "semantic-release": "^15.13.30",
     "ts-jest": "^24.1.0",
-    "typescript": "^3.6.3",
+    "typescript": "^3.6.4",
     "@swissquote/crafty-preset-jest": "^1.8.0",
-    "stdstream-snapshot": "^1.2.0"
+    "stdstream-snapshot": "^1.2.4"
   },
   "release": {
     "branch": "master",
@@ -70,8 +70,8 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.0.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
     "eslint-plugin-standard": "^4.0.1"
   }
 }

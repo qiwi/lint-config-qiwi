@@ -11,18 +11,18 @@ Object {
   "stdout": "/src/test/ts/rules/some-rules.ts
    2:7   error  'name' is assigned a value but never used                                 no-unused-vars
    3:7   error  'name' is already defined                                                 no-redeclare
-   4:7   error  'namefoo' is never reassigned. Use 'const' instead                        prefer-const
    4:7   error  It's not necessary to initialize 'namefoo' to undefined                   no-undef-init
    4:7   error  'namefoo' is assigned a value but never used                              no-unused-vars
-   5:7   error  'message' is never reassigned. Use 'const' instead                        prefer-const
+   4:7   error  'namefoo' is never reassigned. Use 'const' instead                        prefer-const
    5:7   error  'message' is assigned a value but never used                              no-unused-vars
+   5:7   error  'message' is never reassigned. Use 'const' instead                        prefer-const
    5:22  error  Unnecessary escape character: \\\\o                                          no-useless-escape
    6:7   error  'pattern1' is assigned a value but never used                             no-unused-vars
    6:18  error  Unexpected control character(s) in regular expression: \\\\x1f               no-control-regex
    6:24  error  Extra semicolon                                                           semi
    7:7   error  'pattern2' is assigned a value but never used                             no-unused-vars
-   7:29  error  Strings must use singlequote                                              quotes
    7:29  error  Unexpected control character(s) in regular expression: \\\\x1f               no-control-regex
+   7:29  error  Strings must use singlequote                                              quotes
    7:36  error  Extra semicolon                                                           semi
    9:9   error  'myRegex' is assigned a value but never used                              no-unused-vars
    9:19  error  Empty class                                                               no-empty-character-class
@@ -37,11 +37,11 @@ Object {
   27:14  error  'declaration' is defined but never used                                   no-unused-vars
   27:25  error  Missing space before function parentheses                                 space-before-function-paren
   30:3   error  Expected space(s) after \\"if\\"                                              keyword-spacing
-  30:5   error  There should be no space after this paren                                 space-in-parens
+  30:6   error  There should be no space after this paren                                 space-in-parens
   30:7   error  Unexpected constant condition                                             no-constant-condition
-  30:12  error  There should be no space before this paren                                space-in-parens
-  31:9   error  Unexpected constant condition                                             no-constant-condition
+  30:11  error  There should be no space before this paren                                space-in-parens
   31:9   error  Expected a conditional expression and instead saw an assignment           no-cond-assign
+  31:9   error  Unexpected constant condition                                             no-constant-condition
   37:5   error  Unreachable code                                                          no-unreachable
   37:11  error  'z' is assigned a value but never used                                    no-unused-vars
   41:7   error  'bar' is already defined                                                  no-redeclare
