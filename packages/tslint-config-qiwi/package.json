@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/qiwi/lint-config-qiwi#readme",
   "dependencies": {
-    "tslint-config-standard": "^8.0.1",
+    "tslint-config-standard": "^9.0.0",
     "tslint-react": "^4.1.0"
   },
   "devDependencies": {
