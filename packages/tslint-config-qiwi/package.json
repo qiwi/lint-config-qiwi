@@ -36,9 +36,9 @@
     "tslint-react": "^4.1.0"
   },
   "devDependencies": {
-    "semantic-release": "^15.13.30",
+    "semantic-release": "15.13.31",
     "@semantic-release/changelog": "^3.0.5",
-    "@semantic-release/git": "^7.0.17",
+    "@semantic-release/git": "7.0.18",
     "@semantic-release/github": "^5.5.5",
     "@semantic-release/npm": "^5.3.4",
     "@types/jest": "^24.0.21",
