@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.3.1](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.3.0...eslint-config-qiwi@1.3.1) (2019-11-19)
+
+
+### Bug Fixes
+
+* **eslint:** let imported classes be used as type refs ([ecfe9a3](https://github.com/qiwi/lint-config-qiwi/commit/ecfe9a3809e68c3fbcfd2d45fc256aa97d6d24e8)), closes [#15](https://github.com/qiwi/lint-config-qiwi/issues/15)
+
 # eslint-config-qiwi [1.3.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.2.1...eslint-config-qiwi@1.3.0) (2019-11-04)
 
 
