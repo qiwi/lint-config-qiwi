@@ -18,7 +18,6 @@ module.exports = {
     'react',
     '@typescript-eslint',
     'react-hooks',
-    '@typescript-eslint',
     'optimize-regex',
     'sonarjs',
     'unicorn'
