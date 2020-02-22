@@ -8,7 +8,8 @@ Object {
     "signal": null,
   },
   "stderr": "",
-  "stdout": "ERROR: /src/test/ts/rules/trailing-comma-fail.ts:3:7 - Missing trailing comma
-ERROR: /src/test/ts/rules/trailing-comma-fail.ts:9:17 - Forbidden trailing comma",
+  "stdout": "/src/test/ts/rules/trailing-comma-fail.ts:3:7
+ERROR: 3:7   trailing-comma  Missing trailing comma
+ERROR: 9:17  trailing-comma  Forbidden trailing comma",
 }
 `;
