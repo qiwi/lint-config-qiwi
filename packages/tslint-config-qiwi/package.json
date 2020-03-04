@@ -46,7 +46,7 @@
     "jest": "^25.1.0",
     "ts-jest": "^25.2.1",
     "tslint": "^6.0.0",
-    "typescript": "^3.8.2",
+    "typescript": "^3.8.3",
     "stdstream-snapshot": "^1.2.4"
   },
   "release": {
