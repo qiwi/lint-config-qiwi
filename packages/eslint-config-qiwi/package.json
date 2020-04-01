@@ -31,23 +31,37 @@
   "homepage": "https://github.com/qiwi/lint-config-qiwi#readme",
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-array-func": "^3.1.4",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-optimize-regex": "^1.1.7",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-unicorn": "^18.0.1"
+  },
   "devDependencies": {
-    "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
-    "@semantic-release/github": "^7.0.4",
-    "@semantic-release/npm": "^7.0.3",
-    "@types/jest": "^25.1.3",
-    "@typescript-eslint/eslint-plugin": "^2.6.0",
-    "@typescript-eslint/parser": "^2.22.0",
-    "coveralls": "^3.0.9",
+    "@semantic-release/github": "^7.0.5",
+    "@semantic-release/npm": "^7.0.5",
+    "@swissquote/crafty-preset-jest": "^1.11.0",
+    "@types/jest": "^25.1.4",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "coveralls": "^3.0.11",
     "eslint": "^6.8.0",
-    "jest": "^25.1.0",
+    "jest": "^25.2.4",
     "semantic-release": "^17.0.4",
-    "ts-jest": "^25.2.1",
-    "typescript": "^3.8.3",
-    "@swissquote/crafty-preset-jest": "^1.10.0",
     "stdstream-snapshot": "^1.2.4",
-    "trim-right": "^1.0.1"
+    "trim-right": "^1.0.1",
+    "ts-jest": "^25.3.0",
+    "typescript": "^3.8.3"
   },
   "release": {
     "branch": "master",
@@ -65,19 +79,5 @@
       "@semantic-release/npm",
       "@semantic-release/github"
     ]
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.22.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^2.5.0",
-    "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-array-func": "^3.1.4",
-    "eslint-plugin-unicorn": "^16.1.1",
-    "eslint-plugin-optimize-regex": "^1.1.7",
-    "eslint-plugin-sonarjs": "^0.5.0"
   }
 }
