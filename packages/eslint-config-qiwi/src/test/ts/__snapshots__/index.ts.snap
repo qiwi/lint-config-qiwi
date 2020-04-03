@@ -68,12 +68,9 @@ Object {
   65:1   error  Read-only global 'window' should not be modified                          no-global-assign
 
 /src/test/ts/rules/trailing-comma-fail.ts
-  9:17  error  Unexpected trailing comma  comma-dangle
+  3:7  error  Missing trailing comma  comma-dangle
 
-/src/test/ts/rules/trailing-comma.ts
-  3:7  error  Unexpected trailing comma  comma-dangle
-
-✖ 59 problems (59 errors, 0 warnings)
-  24 errors and 0 warnings potentially fixable with the \`--fix\` option.",
+✖ 58 problems (58 errors, 0 warnings)
+  23 errors and 0 warnings potentially fixable with the \`--fix\` option.",
 }
 `;
