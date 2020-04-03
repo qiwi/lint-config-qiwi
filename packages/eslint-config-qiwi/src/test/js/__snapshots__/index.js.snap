@@ -9,8 +9,9 @@ Object {
   },
   "stderr": "",
   "stdout": "/src/test/js/rules/trailing-comma-fail.js
-  8:4  error  Parsing error: Type expected
+  9:10  error  Unexpected trailing comma  comma-dangle
 
-✖ 1 problem (1 error, 0 warnings)",
+✖ 1 problem (1 error, 0 warnings)
+  1 error and 0 warnings potentially fixable with the \`--fix\` option.",
 }
 `;
