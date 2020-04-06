@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.3.3](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.3.2...eslint-config-qiwi@1.3.3) (2020-04-06)
+
+
+### Bug Fixes
+
+* **eslint:** fix deps scope ([d0800c4](https://github.com/qiwi/lint-config-qiwi/commit/d0800c49046b30a346206f15fefb705cc150fc1a))
+
 ## eslint-config-qiwi [1.3.2](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.3.1...eslint-config-qiwi@1.3.2) (2020-02-22)
 
 
