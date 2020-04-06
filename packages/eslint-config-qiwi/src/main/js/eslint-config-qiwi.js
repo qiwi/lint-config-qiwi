@@ -2,7 +2,8 @@ module.exports = {
   env: {
     node: true,
     browser: true,
-    es6: true
+    es6: true,
+    jest: true,
   },
   parser: '@typescript-eslint/parser',
   extends: [
@@ -12,15 +13,16 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:sonarjs/recommended',
-    'plugin:array-func/recommended'
+    'plugin:array-func/recommended',
   ],
   plugins: [
     'react',
     '@typescript-eslint',
+    '@typescript-eslint/eslint-plugin',
     'react-hooks',
     'optimize-regex',
     'sonarjs',
-    'unicorn'
+    'unicorn',
   ],
   rules: {
     'eslint/no-unused-vars': 0,
@@ -73,7 +75,10 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
-    '@typescript-eslint/member-delimiter-style': 'off'
+    '@typescript-eslint/member-delimiter-style': 'off',
+    '@typescript-eslint/ban-ts-ignore': 'off',
+    'no-return-await': 'error',
+    'comma-dangle': ['error', 'always-multiline']
   },
   globals: {
     Cypress: 'readonly',
@@ -81,18 +86,18 @@ module.exports = {
     it: 'readonly',
     expect: 'readonly',
     describe: 'readonly',
-    fetch: 'readonly'
+    fetch: 'readonly',
   },
   settings: {
     react: {
-      version: 'latest'
-    }
+      version: 'latest',
+    },
   },
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     ecmaVersion: 9,
-    sourceType: 'module'
-  }
+    sourceType: 'module',
+  },
 }

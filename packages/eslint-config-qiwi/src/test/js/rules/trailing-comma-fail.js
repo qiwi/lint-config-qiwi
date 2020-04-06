@@ -5,6 +5,6 @@ export const foo = {
 
 export const fnWithRest = (
   a,
-  b:,
+  b,
   ...rest,
 ) => console.log(a, b, ...rest)
