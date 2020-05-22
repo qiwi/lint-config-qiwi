@@ -9,10 +9,18 @@ Object {
   },
   "stderr": "",
   "stdout": "/src/test/js/rules/trailing-comma-fail.js
-  3:7   error  Missing trailing comma     comma-dangle
-  9:10  error  Unexpected trailing comma  comma-dangle
+  3:7   error    Missing trailing comma           comma-dangle
+  6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
+  6:27  warning  Argument 'a' should be typed     @typescript-eslint/explicit-module-boundary-types
+  6:27  warning  Argument 'b' should be typed     @typescript-eslint/explicit-module-boundary-types
+  9:10  error    Unexpected trailing comma        comma-dangle
 
-✖ 2 problems (2 errors, 0 warnings)
+/src/test/js/rules/trailing-comma.js
+  6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
+  6:27  warning  Argument 'a' should be typed     @typescript-eslint/explicit-module-boundary-types
+  6:27  warning  Argument 'b' should be typed     @typescript-eslint/explicit-module-boundary-types
+
+✖ 8 problems (2 errors, 6 warnings)
   2 errors and 0 warnings potentially fixable with the \`--fix\` option.",
 }
 `;
