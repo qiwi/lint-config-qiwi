@@ -1,3 +1,10 @@
+# tslint-config-qiwi [1.4.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.3.2...tslint-config-qiwi@1.4.0) (2020-05-22)
+
+
+### Features
+
+* up deps, update linting rules ([f79d679](https://github.com/qiwi/lint-config-qiwi/commit/f79d679d2725670ea8128035b67b28b3f9faa23c))
+
 ## tslint-config-qiwi [1.3.2](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.3.1...tslint-config-qiwi@1.3.2) (2020-02-22)
 
 
