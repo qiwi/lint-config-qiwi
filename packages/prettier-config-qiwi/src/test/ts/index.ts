@@ -7,17 +7,24 @@ import {
   rmdirSync,
   existsSync,
 } from 'fs'
+import * as prettierConfig from '../../main/js'
 
 describe('', () => {
-  const tmpDir = '../../../../../tmp'
+  const tmpDir = resolve(__dirname, '../../../../../tmp')
+
   beforeAll(() => {
-    if (existsSync(resolve(__dirname, tmpDir))) {
-      rmdirSync(resolve(__dirname, tmpDir), { recursive: true })
+    if (existsSync(tmpDir)) {
+      rmdirSync(tmpDir, { recursive: true })
     }
-    mkdirSync(resolve(__dirname, '../../../../../tmp'))
+    mkdirSync(tmpDir)
   })
 
-  it('', async () => {
+  it('prettierConfig', () => {
+    console.log('prettierConfig', prettierConfig)
+    expect(prettierConfig).toBeDefined()
+  })
+
+  it('formats as expected', async () => {
     const configPath = resolve(__dirname, '../../main/js/index.js')
 
     const input = resolve(__dirname, '../fixtures/input.ts')
