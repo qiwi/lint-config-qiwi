@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-qiwi",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Prettier rules related to QIWI projects",
   "main": "src/main/js/index",
   "scripts": {
@@ -61,5 +61,6 @@
     ]
   },
   "peerDependencies": {},
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "dependencies": {}
 }
