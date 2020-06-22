@@ -1,3 +1,10 @@
+# eslint-config-qiwi [1.6.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.5.0...eslint-config-qiwi@1.6.0) (2020-06-22)
+
+
+### Features
+
+* **eslint:** add rules about commas and spacing ([#43](https://github.com/qiwi/lint-config-qiwi/issues/43)) ([2ada10f](https://github.com/qiwi/lint-config-qiwi/commit/2ada10fed6ff8ca8056c0ae37b04ca11e79a6d7f))
+
 # eslint-config-qiwi [1.5.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.4.0...eslint-config-qiwi@1.5.0) (2020-06-22)
 
 
