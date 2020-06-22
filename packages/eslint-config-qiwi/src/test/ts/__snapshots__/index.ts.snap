@@ -10,8 +10,8 @@ Object {
   "stderr": "",
   "stdout": "/src/test/ts/rules/some-rules.ts
    1:20  warning  Missing return type on function                                           @typescript-eslint/explicit-module-boundary-types
-   1:20  warning  Argument 'foo' should be typed                                            @typescript-eslint/explicit-module-boundary-types
-   2:7   error    'name' is assigned a value but never used                                 @typescript-eslint/no-unused-vars
+   1:21  warning  Argument 'foo' should be typed                                            @typescript-eslint/explicit-module-boundary-types
+   3:7   error    'name' is assigned a value but never used                                 @typescript-eslint/no-unused-vars
    4:7   error    It's not necessary to initialize 'namefoo' to undefined                   no-undef-init
    4:7   error    'namefoo' is assigned a value but never used                              @typescript-eslint/no-unused-vars
    4:7   error    'namefoo' is never reassigned. Use 'const' instead                        prefer-const
@@ -61,7 +61,7 @@ Object {
   46:10  error    Redundant use of \`await\` on a return value                                no-return-await
   46:21  error    Extra semicolon                                                           semi
   50:18  error    Unexpected empty constructor                                              @typescript-eslint/no-empty-function
-  55:15  warning  Argument 'value' should be typed                                          @typescript-eslint/explicit-module-boundary-types
+  55:16  warning  Argument 'value' should be typed                                          @typescript-eslint/explicit-module-boundary-types
   56:17  error    Extra semicolon                                                           semi
   60:8   warning  Missing return type on function                                           @typescript-eslint/explicit-module-boundary-types
   61:3   error    The update clause in this loop moves the variable in the wrong direction  for-direction

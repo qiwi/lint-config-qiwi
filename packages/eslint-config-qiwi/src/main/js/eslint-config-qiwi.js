@@ -78,7 +78,8 @@ module.exports = {
     '@typescript-eslint/member-delimiter-style': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off',
     'no-return-await': 'error',
-    'comma-dangle': ['error', 'always-multiline']
+    'comma-dangle': ['error', 'always-multiline'],
+    '@typescript-eslint/ban-ts-comment': 'off',
   },
   globals: {
     Cypress: 'readonly',
