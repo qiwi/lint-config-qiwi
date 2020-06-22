@@ -58,4 +58,4 @@ buildcache
 .rts2_cache_es
 .rts2_cache_umd
 
-packages/prettier-config-qiwi/src/test/fixtures/temp.ts
+packages/prettier-config-qiwi/src/test/tmp

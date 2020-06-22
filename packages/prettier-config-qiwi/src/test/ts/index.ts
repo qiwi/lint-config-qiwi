@@ -1,6 +1,6 @@
-import {generateSnapshot} from 'stdstream-snapshot'
+import { execSync } from 'child_process'
 import { resolve } from 'path'
-import { copyFileSync, readFileSync } from 'fs'
+import { copyFileSync, readFileSync, mkdirSync } from 'fs'
 
 describe('', () => {
   it('', async () => {
@@ -8,13 +8,12 @@ describe('', () => {
 
     const input = resolve(__dirname, '../fixtures/input.ts')
     const output = resolve(__dirname, '../fixtures/output.ts')
-    const temp = resolve(__dirname, '../fixtures/temp.ts')
+    const temp = resolve(__dirname, '../tmp/index.ts')
 
+    mkdirSync(resolve(__dirname, '../tmp'))
     copyFileSync(input, temp)
 
-    await generateSnapshot({
-      cmd: `prettier --config ${configPath} --write ${temp}`
-    })
+    execSync(`prettier --config ${configPath} --write ${temp}`)
 
     expect(readFileSync(temp, 'utf-8')).toBe(readFileSync(output, 'utf-8'))
   })
