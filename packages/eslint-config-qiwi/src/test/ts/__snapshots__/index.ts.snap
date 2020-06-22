@@ -45,7 +45,6 @@ Object {
   26:10  error    Octal literals should not be used                                         no-octal
   27:5   error    Move function declaration to function body root                           no-inner-declarations
   27:14  error    'declaration' is defined but never used                                   @typescript-eslint/no-unused-vars
-  27:25  error    Missing space before function parentheses                                 space-before-function-paren
   27:28  error    Unexpected empty function 'declaration'                                   @typescript-eslint/no-empty-function
   30:3   error    Expected space(s) after \\"if\\"                                              keyword-spacing
   30:6   error    There should be no space after this paren                                 space-in-parens
@@ -57,13 +56,15 @@ Object {
   42:45  error    Missing space before =>                                                   arrow-spacing
   42:48  error    Missing space after =>                                                    arrow-spacing
   45:8   warning  Missing return type on function                                           @typescript-eslint/explicit-module-boundary-types
-  45:26  error    Missing space before function parentheses                                 space-before-function-paren
   46:10  error    Redundant use of \`await\` on a return value                                no-return-await
   46:21  error    Extra semicolon                                                           semi
+  50:14  error    Unexpected space before function parentheses                              space-before-function-paren
   50:18  error    Unexpected empty constructor                                              @typescript-eslint/no-empty-function
+  55:14  error    Unexpected space before function parentheses                              space-before-function-paren
   55:16  warning  Argument 'value' should be typed                                          @typescript-eslint/explicit-module-boundary-types
   56:17  error    Extra semicolon                                                           semi
   60:8   warning  Missing return type on function                                           @typescript-eslint/explicit-module-boundary-types
+  60:18  error    Unexpected space before function parentheses                              space-before-function-paren
   61:3   error    The update clause in this loop moves the variable in the wrong direction  for-direction
   61:8   error    Unexpected var, use let or const instead                                  no-var
   61:32  error    Empty block statement                                                     no-empty
@@ -80,7 +81,7 @@ Object {
 /src/test/ts/rules/trailing-comma.ts
   6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
 
-✖ 66 problems (59 errors, 7 warnings)
-  24 errors and 0 warnings potentially fixable with the \`--fix\` option.",
+✖ 67 problems (60 errors, 7 warnings)
+  25 errors and 0 warnings potentially fixable with the \`--fix\` option.",
 }
 `;
