@@ -16,9 +16,10 @@ yarn add prettier-config-qiwi -D
 ## Usage
 Add in your `package.json`:
 ```json
-"name": "hello-prettier",
-// ...
-"prettier": "prettier-config-qiwi"
+{
+   ...
+   "prettier": "prettier-config-qiwi"
+}
 ``` 
 If you want overwrite some properties, you need import the file in a .prettierrc.js file and export the modifications: 
 ```javascript
