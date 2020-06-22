@@ -5,7 +5,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/test_coverage)](https://codeclimate.com/github/qiwi/lint-config-qiwi/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/maintainability)](https://codeclimate.com/github/qiwi/lint-config-qiwi/maintainability)
 
-[Prettieer](https://prettier.io/) rules related to QIWI projects.
+[Prettier](https://prettier.io/) rules related to QIWI projects.
 
 ## Install
 ```bash
