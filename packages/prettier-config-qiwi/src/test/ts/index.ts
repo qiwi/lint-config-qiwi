@@ -20,7 +20,6 @@ describe('', () => {
   })
 
   it('prettierConfig', () => {
-    console.log('prettierConfig', prettierConfig)
     expect(prettierConfig).toBeDefined()
   })
 
@@ -29,7 +28,7 @@ describe('', () => {
 
     const input = resolve(__dirname, '../fixtures/input.ts')
     const output = resolve(__dirname, '../fixtures/output.ts')
-    const temp = resolve(__dirname, '../../../../../tmp/index.ts')
+    const temp = resolve(tmpDir, 'index.ts')
 
     copyFileSync(input, temp)
 
