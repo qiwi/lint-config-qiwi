@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "noEmit": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/main/**/*",
+    "src/test/ts/index.ts"
+  ]
+}
