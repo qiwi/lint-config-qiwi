@@ -79,12 +79,6 @@ module.exports = {
     '@typescript-eslint/ban-ts-ignore': 'off',
     'no-return-await': 'error',
     '@typescript-eslint/ban-ts-comment': 0,
-    'object-curly-spacing': [2, 'never'],
-    'space-before-function-paren': ['error', {
-      anonymous: 'never',
-      named: 'never',
-      asyncArrow: 'always',
-    }],
     'comma-dangle': [
       'error', {
         arrays: 'always-multiline',
