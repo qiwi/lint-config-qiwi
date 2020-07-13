@@ -1,3 +1,10 @@
+# eslint-config-qiwi [1.7.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.6.0...eslint-config-qiwi@1.7.0) (2020-07-13)
+
+
+### Features
+
+* return bracketSpacing rules ([#46](https://github.com/qiwi/lint-config-qiwi/issues/46)) ([f6a90b4](https://github.com/qiwi/lint-config-qiwi/commit/f6a90b474da205c99d3aa0a8fd9350d4e5c5f482))
+
 # eslint-config-qiwi [1.6.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.5.0...eslint-config-qiwi@1.6.0) (2020-06-22)
 
 
