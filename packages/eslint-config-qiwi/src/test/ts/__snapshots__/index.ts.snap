@@ -73,11 +73,11 @@ Object {
   65:1   error    Read-only global 'window' should not be modified                          no-global-assign
 
 /src/test/ts/rules/trailing-comma-fail.ts
-  3:7   error    Missing trailing comma           comma-dangle
   6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
   9:17  error    Unexpected trailing comma        comma-dangle
 
 /src/test/ts/rules/trailing-comma.ts
+  3:7   error    Unexpected trailing comma        comma-dangle
   6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
 
 ✖ 66 problems (59 errors, 7 warnings)
