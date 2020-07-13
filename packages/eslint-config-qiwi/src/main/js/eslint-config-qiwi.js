@@ -79,6 +79,15 @@ module.exports = {
     '@typescript-eslint/ban-ts-ignore': 'off',
     'no-return-await': 'error',
     '@typescript-eslint/ban-ts-comment': 0,
+    'comma-dangle': [
+      'error', {
+        arrays: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'never',
+        imports: 'always-multiline',
+        objects: 'always-multiline',
+      },
+    ],
   },
   globals: {
     Cypress: 'readonly',
