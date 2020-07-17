@@ -44,7 +44,7 @@
     "eslint-plugin-react-hooks": "^4.0.4",
     "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-unicorn": "^20.1.0"
+    "eslint-plugin-unicorn": "^21.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
