@@ -9,6 +9,7 @@ Object {
   },
   "stderr": "",
   "stdout": "/src/test/js/rules/trailing-comma-fail.js
+  3:7   error    Missing trailing comma           comma-dangle
   6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
   7:3   warning  Argument 'a' should be typed     @typescript-eslint/explicit-module-boundary-types
   8:3   warning  Argument 'b' should be typed     @typescript-eslint/explicit-module-boundary-types
@@ -16,7 +17,6 @@ Object {
   9:10  error    Unexpected trailing comma        comma-dangle
 
 /src/test/js/rules/trailing-comma.js
-  3:7   error    Unexpected trailing comma        comma-dangle
   6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
   7:3   warning  Argument 'a' should be typed     @typescript-eslint/explicit-module-boundary-types
   8:3   warning  Argument 'b' should be typed     @typescript-eslint/explicit-module-boundary-types

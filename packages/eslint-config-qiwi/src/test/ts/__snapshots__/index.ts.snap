@@ -8,13 +8,17 @@ Object {
     "signal": null,
   },
   "stderr": "",
-  "stdout": "/src/test/ts/rules/some-rules.ts
+  "stdout": "/src/test/ts/rules/imports-fail.ts
+  1:1  error  Run autofix to sort these imports!  simple-import-sort/sort
+
+/src/test/ts/rules/some-rules.ts
    1:20  warning  Missing return type on function                                           @typescript-eslint/explicit-module-boundary-types
    1:21  warning  Argument 'foo' should be typed                                            @typescript-eslint/explicit-module-boundary-types
    3:7   error    'name' is assigned a value but never used                                 @typescript-eslint/no-unused-vars
    4:7   error    It's not necessary to initialize 'namefoo' to undefined                   no-undef-init
    4:7   error    'namefoo' is assigned a value but never used                              @typescript-eslint/no-unused-vars
    4:7   error    'namefoo' is never reassigned. Use 'const' instead                        prefer-const
+   4:17  error    Do not use useless \`undefined\`                                            unicorn/no-useless-undefined
    5:7   error    'message' is assigned a value but never used                              @typescript-eslint/no-unused-vars
    5:7   error    'message' is never reassigned. Use 'const' instead                        prefer-const
    5:22  error    Unnecessary escape character: \\\\o                                          no-useless-escape
@@ -73,14 +77,14 @@ Object {
   65:1   error    Read-only global 'window' should not be modified                          no-global-assign
 
 /src/test/ts/rules/trailing-comma-fail.ts
+  3:7   error    Missing trailing comma           comma-dangle
   6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
   9:17  error    Unexpected trailing comma        comma-dangle
 
 /src/test/ts/rules/trailing-comma.ts
-  3:7   error    Unexpected trailing comma        comma-dangle
   6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
 
-✖ 66 problems (59 errors, 7 warnings)
-  24 errors and 0 warnings potentially fixable with the \`--fix\` option.",
+✖ 68 problems (61 errors, 7 warnings)
+  26 errors and 0 warnings potentially fixable with the \`--fix\` option.",
 }
 `;
