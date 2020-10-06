@@ -1,3 +1,10 @@
+# eslint-config-qiwi [1.8.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.7.0...eslint-config-qiwi@1.8.0) (2020-10-06)
+
+
+### Features
+
+* **eslint:** add imports sort rules and no-null rule ([687198d](https://github.com/qiwi/lint-config-qiwi/commit/687198d653d875522f6019aeceb7d48c0a0c3552))
+
 # eslint-config-qiwi [1.7.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.6.0...eslint-config-qiwi@1.7.0) (2020-07-13)
 
 
