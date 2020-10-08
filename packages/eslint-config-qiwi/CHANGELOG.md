@@ -1,3 +1,10 @@
+# eslint-config-qiwi [1.9.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.8.0...eslint-config-qiwi@1.9.0) (2020-10-08)
+
+
+### Features
+
+* **eslint-config-qiwi:** disabled module-boundary-types rule for js ([#52](https://github.com/qiwi/lint-config-qiwi/issues/52)) ([4b57b04](https://github.com/qiwi/lint-config-qiwi/commit/4b57b04ed335c2189bacc842a55e2e88e06cebc5))
+
 # eslint-config-qiwi [1.8.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.7.0...eslint-config-qiwi@1.8.0) (2020-10-06)
 
 
