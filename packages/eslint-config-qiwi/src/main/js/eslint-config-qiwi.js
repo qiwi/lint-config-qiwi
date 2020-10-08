@@ -115,4 +115,12 @@ module.exports = {
     ecmaVersion: 9,
     sourceType: 'module',
   },
+  overrides: [
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/explicit-module-boundary-types': 'off'
+      }
+    }
+  ]
 }
