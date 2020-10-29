@@ -57,7 +57,7 @@
     "coveralls": "^3.1.0",
     "eslint": "^7.10.0",
     "jest": "^26.4.2",
-    "semantic-release": "^17.1.2",
+    "semantic-release": "17.2.1",
     "stdstream-snapshot": "^1.2.4",
     "trim-right": "^1.0.1",
     "ts-jest": "^26.4.1",
