@@ -34,13 +34,5 @@
     "typedoc": "^0.19.2",
     "typescript": "^4.0.5",
     "yargs": "^16.1.0"
-  },
-  "jest": {
-    "collectCoverage": true,
-    "projects": [
-      "<rootDir>/packages/tslint-config-qiwi/jest.config.json",
-      "<rootDir>/packages/eslint-config-qiwi/jest.config.json",
-      "<rootDir>/packages/prettier-config-qiwi/jest.config.json"
-    ]
   }
 }
