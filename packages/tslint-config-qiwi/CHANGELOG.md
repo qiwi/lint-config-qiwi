@@ -1,3 +1,10 @@
+# tslint-config-qiwi [1.6.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.5.0...tslint-config-qiwi@1.6.0) (2020-10-30)
+
+
+### Features
+
+* update eslint-standard, up deps ([b450996](https://github.com/qiwi/lint-config-qiwi/commit/b450996b3c92fd03a9fb22dfaf231bf4a1574e65))
+
 # tslint-config-qiwi [1.5.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.4.0...tslint-config-qiwi@1.5.0) (2020-06-22)
 
 
