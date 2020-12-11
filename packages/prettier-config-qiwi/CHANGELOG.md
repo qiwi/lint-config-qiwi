@@ -1,3 +1,10 @@
+## prettier-config-qiwi [1.3.1](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.3.0...prettier-config-qiwi@1.3.1) (2020-12-11)
+
+
+### Performance Improvements
+
+* update docs script ([939b85e](https://github.com/qiwi/lint-config-qiwi/commit/939b85e52e894a564b9a85c6c5b51d6f30876283))
+
 # prettier-config-qiwi [1.3.0](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.2.0...prettier-config-qiwi@1.3.0) (2020-10-30)
 
 
