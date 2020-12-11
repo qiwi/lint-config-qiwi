@@ -16,7 +16,7 @@
     "coverage:merge": "node scripts/js/coverage-merge.js",
     "codeclimate:push": "codeclimate-test-reporter < ./coverage/lcov.info || echo 'codeclimate push failed :(' && exit 0",
     "coveralls:push": "cat ./coverage/lcov.info | coveralls || echo 'coveralls push failed :(' && exit 0",
-    "docs": "typedoc packages/**/src/main --ignoreCompilerErrors || exit 0",
+    "docs": "lerna run docs && touch ./docs/.nojekyll || exit 0",
     "postupdate": "yarn && yarn bootstrap && npx yarn-audit-fix && yarn build && yarn test"
   },
   "devDependencies": {

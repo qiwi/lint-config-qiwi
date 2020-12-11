@@ -1,5 +1,5 @@
 {
-  "name": "lint-config-qiwi",
+  "name": "tslint-config-qiwi",
   "out": "./docs",
   "exclude": ["test", "**/node_modules/**"],
   "externalPattern": "**/node_modules/**",
