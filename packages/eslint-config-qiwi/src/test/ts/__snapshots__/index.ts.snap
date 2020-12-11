@@ -9,7 +9,7 @@ Object {
   },
   "stderr": "",
   "stdout": "/src/test/ts/rules/imports-fail.ts
-  1:1  error  Run autofix to sort these imports!  simple-import-sort/sort
+  1:1  error  Run autofix to sort these imports!  simple-import-sort/imports
 
 /src/test/ts/rules/some-rules.ts
    1:20  warning  Missing return type on function                                           @typescript-eslint/explicit-module-boundary-types
