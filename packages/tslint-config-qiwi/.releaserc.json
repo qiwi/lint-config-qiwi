@@ -18,8 +18,8 @@
       {
         "branch": "gh-pages",
         "msg": "docs updated <%= nextRelease.gitTag %>",
-        "src": "packages/types/docs",
-        "dst": "./types",
+        "src": "packages/tslint-config-qiwi/docs",
+        "dst": "./tslint-config-qiwi",
         "pullTagsBranch": ""
       }
     ]
