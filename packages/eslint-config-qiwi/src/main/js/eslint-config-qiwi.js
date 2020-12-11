@@ -84,7 +84,7 @@ module.exports = {
     '@typescript-eslint/ban-ts-ignore': 'off',
     'no-return-await': 'error',
     '@typescript-eslint/ban-ts-comment': 0,
-    'simple-import-sort/sort': 'error',
+    'simple-import-sort/imports': 'error',
     'comma-dangle': [
       'error', {
         arrays: 'always-multiline',
