@@ -11,7 +11,8 @@
     "test:report": "yarn test && yarn coveralls:push",
     "jest": "jest -w=1 --config=jest.config.json",
     "coveralls:push": "cat ./coverage/lcov.info | coveralls",
-    "lint": "tslint --config src/main/js/tslint-config-qiwi.js --project tsconfig.json"
+    "lint": "tslint --config src/main/js/tslint-config-qiwi.js --project tsconfig.json",
+    "docs": "typedoc --options ./typedoc.json ./src/main"
   },
   "files": [
     "README.md",

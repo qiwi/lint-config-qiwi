@@ -8,3 +8,8 @@ Lint configs related to QIWI JS/TS projects
 * [tslint-config-qiwi](./packages/tslint-config-qiwi)
 * [eslint-config-qiwi](./packages/eslint-config-qiwi)
 * [prettier-config-qiwi](./packages/prettier-config-qiwi)
+
+### Docs
+* [eslint-config-qiwi](https://qiwi.github.io/lint-config-qiwi/eslint-config-qiwi)
+* [prettier-config-qiwi](https://qiwi.github.io/lint-config-qiwi/prettier-config-qiwi)
+* [tslint-config-qiwi](https://qiwi.github.io/lint-config-qiwi/tslint-config-qiwi)
