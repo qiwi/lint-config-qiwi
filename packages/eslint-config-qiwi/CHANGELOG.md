@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.10.1](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.10.0...eslint-config-qiwi@1.10.1) (2020-12-11)
+
+
+### Performance Improvements
+
+* update docs script ([939b85e](https://github.com/qiwi/lint-config-qiwi/commit/939b85e52e894a564b9a85c6c5b51d6f30876283))
+
 # eslint-config-qiwi [1.10.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.9.0...eslint-config-qiwi@1.10.0) (2020-10-30)
 
 
