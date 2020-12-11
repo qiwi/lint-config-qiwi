@@ -1,3 +1,10 @@
+## tslint-config-qiwi [1.6.1](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.6.0...tslint-config-qiwi@1.6.1) (2020-12-11)
+
+
+### Performance Improvements
+
+* update docs script ([939b85e](https://github.com/qiwi/lint-config-qiwi/commit/939b85e52e894a564b9a85c6c5b51d6f30876283))
+
 # tslint-config-qiwi [1.6.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.5.0...tslint-config-qiwi@1.6.0) (2020-10-30)
 
 
