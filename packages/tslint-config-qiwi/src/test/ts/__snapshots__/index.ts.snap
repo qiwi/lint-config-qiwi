@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tslint-config-qiwi config works as expected 1`] = `
+Object {
+  "err": Object {
+    "code": 2,
+    "killed": false,
+    "signal": null,
+  },
+  "stderr": "",
+  "stdout": "/src/test/ts/rules/trailing-comma-fail.ts:3:7
+ERROR: 3:7   trailing-comma  Missing trailing comma
+ERROR: 9:17  trailing-comma  Forbidden trailing comma",
+}
+`;

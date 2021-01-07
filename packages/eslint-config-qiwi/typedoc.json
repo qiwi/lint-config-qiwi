@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config-qiwi",
+  "out": "./docs",
+  "exclude": ["test", "**/node_modules/**"],
+  "externalPattern": "**/node_modules/**",
+  "excludePrivate": false,
+  "hideGenerator": true,
+  "readme": "README.md"
+}

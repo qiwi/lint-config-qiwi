@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "tslint-config-qiwi": ["./tslint-config-qiwi/src/main/ts"],
+      "tslint-config-qiwi/*": ["./tslint-config-qiwi/src/main/ts/*"],
+      "eslint-config-qiwi": ["./eslint-config-qiwi/src/main/ts"],
+      "eslint-config-qiwi/*": ["./eslint-config-qiwi/src/main/ts/*"],
+      "prettier-config-qiwi": ["./prettier-config-qiwi/src/main/js"],
+      "prettier-config-qiwi/*": ["./prettier-config-qiwi/src/main/js/*"]
+    }
+  }
+}
