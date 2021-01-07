@@ -4,7 +4,7 @@
   "description": "Prettier rules related to QIWI projects",
   "main": "src/main/js/index",
   "scripts": {
-    "build": "echo 'build is not required' || exit 0",
+    "build": "yarn docs",
     "test": "yarn jest",
     "test:report": "yarn test && yarn coveralls:push",
     "jest": "jest -w=1 --config=jest.config.json",
