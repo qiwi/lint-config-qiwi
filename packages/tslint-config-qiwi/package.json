@@ -4,7 +4,7 @@
   "description": "TSLint rules related to QIWI projects",
   "main": "src/main/js/tslint-config-qiwi.js",
   "scripts": {
-    "build": "echo 'build is not required' || exit 0",
+    "build": "yarn docs",
     "test": "yarn lint && yarn test:spec",
     "test:gen": "yarn jest -u",
     "test:spec": "yarn jest",
