@@ -33,48 +33,31 @@
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.9.1",
-    "@typescript-eslint/parser": "^4.9.1",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-optimize-regex": "^1.2.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-standard": "^5.0.0",
-    "eslint-plugin-unicorn": "^25.0.0"
+    "eslint-plugin-unicorn": "^25.0.1"
   },
   "devDependencies": {
     "@swissquote/crafty-preset-jest": "^1.13.7",
-    "@types/jest": "^26.0.19",
+    "@types/jest": "^26.0.20",
     "coveralls": "^3.1.0",
-    "eslint": "^7.15.0",
+    "eslint": "^7.17.0",
     "jest": "^26.6.3",
     "stdstream-snapshot": "^1.2.5",
     "trim-right": "^1.0.1",
     "ts-jest": "^26.4.4",
-    "typescript": "^4.1.2"
-  },
-  "release": {
-    "branch": "master",
-    "verifyConditions": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/git"
-    ],
-    "prepare": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/git"
-    ],
-    "publish": [
-      "@semantic-release/npm",
-      "@semantic-release/github"
-    ]
+    "typescript": "^4.1.3"
   },
   "peerDependencies": {},
   "optionalDependencies": {}
