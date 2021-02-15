@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.10.5](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.10.4...eslint-config-qiwi@1.10.5) (2021-02-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-sonarjs to ^0.6.0 ([6bb7395](https://github.com/qiwi/lint-config-qiwi/commit/6bb73956c0d9e83fb38bb566456004edfe58476b))
+
 ## eslint-config-qiwi [1.10.4](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.10.3...eslint-config-qiwi@1.10.4) (2021-01-30)
 
 
