@@ -8,7 +8,7 @@ Object {
     "signal": null,
   },
   "stderr": "",
-  "stdout": "/src/test/js/rules/trailing-comma-fail.js
+  "stdout": "/packages/eslint-config-qiwi/src/test/js/rules/trailing-comma-fail.js
   3:7   error  Missing trailing comma     comma-dangle
   9:10  error  Unexpected trailing comma  comma-dangle
 

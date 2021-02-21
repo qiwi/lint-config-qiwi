@@ -8,7 +8,7 @@ Object {
     "signal": null,
   },
   "stderr": "",
-  "stdout": "/src/test/ts/rules/trailing-comma-fail.ts:3:7
+  "stdout": "/packages/tslint-config-qiwi/src/test/ts/rules/trailing-comma-fail.ts:3:7
 ERROR: 3:7   trailing-comma  Missing trailing comma
 ERROR: 9:17  trailing-comma  Forbidden trailing comma",
 }

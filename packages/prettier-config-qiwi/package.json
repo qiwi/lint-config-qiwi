@@ -5,10 +5,7 @@
   "main": "src/main/js/index",
   "scripts": {
     "build": "yarn docs",
-    "test": "yarn jest",
-    "test:report": "yarn test && yarn coveralls:push",
-    "jest": "jest -w=1 --config=jest.config.json",
-    "coveralls:push": "cat ./coverage/lcov.info | coveralls",
+    "test": "jest -w=1 --config=jest.config.json",
     "docs": "typedoc --options ./typedoc.json ./src/main"
   },
   "files": [
