@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.10.7](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.10.6...eslint-config-qiwi@1.10.7) (2021-02-21)
+
+
+### Performance Improvements
+
+* **package:** up deps ([716dd01](https://github.com/qiwi/lint-config-qiwi/commit/716dd0106f6fbcd4e3328227d5003ec4b732195e))
+
 ## eslint-config-qiwi [1.10.6](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.10.5...eslint-config-qiwi@1.10.6) (2021-02-15)
 
 
