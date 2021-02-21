@@ -8,10 +8,10 @@ Object {
     "signal": null,
   },
   "stderr": "",
-  "stdout": "/src/test/ts/rules/imports-fail.ts
+  "stdout": "/packages/eslint-config-qiwi/src/test/ts/rules/imports-fail.ts
   1:1  error  Run autofix to sort these imports!  simple-import-sort/imports
 
-/src/test/ts/rules/some-rules.ts
+/packages/eslint-config-qiwi/src/test/ts/rules/some-rules.ts
    1:20  warning  Missing return type on function                                           @typescript-eslint/explicit-module-boundary-types
    1:21  warning  Argument 'foo' should be typed                                            @typescript-eslint/explicit-module-boundary-types
    3:7   error    'name' is assigned a value but never used                                 @typescript-eslint/no-unused-vars
@@ -78,12 +78,12 @@ Object {
   62:33  error    Empty block statement                                                     no-empty
   65:1   error    Read-only global 'window' should not be modified                          no-global-assign
 
-/src/test/ts/rules/trailing-comma-fail.ts
+/packages/eslint-config-qiwi/src/test/ts/rules/trailing-comma-fail.ts
   3:7   error    Missing trailing comma           comma-dangle
   6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
   9:17  error    Unexpected trailing comma        comma-dangle
 
-/src/test/ts/rules/trailing-comma.ts
+/packages/eslint-config-qiwi/src/test/ts/rules/trailing-comma.ts
   6:27  warning  Missing return type on function  @typescript-eslint/explicit-module-boundary-types
 
 ✖ 70 problems (63 errors, 7 warnings)
