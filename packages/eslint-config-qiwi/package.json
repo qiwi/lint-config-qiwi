@@ -44,7 +44,7 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.6.0",
     "eslint-plugin-standard": "^5.0.0",
-    "eslint-plugin-unicorn": "^28.0.2"
+    "eslint-plugin-unicorn": "^29.0.0"
   },
   "devDependencies": {
     "@swissquote/crafty-preset-jest": "^1.13.7",
