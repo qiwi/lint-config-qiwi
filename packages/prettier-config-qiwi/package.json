@@ -27,7 +27,7 @@
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "devDependencies": {
-    "@swissquote/crafty-preset-jest": "^1.13.7",
+    "@swissquote/crafty-preset-jest": "^1.14.0",
     "coveralls": "^3.1.0",
     "jest": "^26.6.3",
     "prettier": "^2.2.1",

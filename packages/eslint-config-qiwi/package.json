@@ -47,7 +47,7 @@
     "eslint-plugin-unicorn": "^29.0.0"
   },
   "devDependencies": {
-    "@swissquote/crafty-preset-jest": "^1.13.7",
+    "@swissquote/crafty-preset-jest": "^1.14.0",
     "@types/jest": "^26.0.20",
     "coveralls": "^3.1.0",
     "eslint": "^7.20.0",
