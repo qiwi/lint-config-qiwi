@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.10.10](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.10.9...eslint-config-qiwi@1.10.10) (2021-04-19)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to ^4.22.0 ([f69dae2](https://github.com/qiwi/lint-config-qiwi/commit/f69dae2bbfc8f7c373c865fa68e320897a528e22))
+
 ## eslint-config-qiwi [1.10.9](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.10.8...eslint-config-qiwi@1.10.9) (2021-04-18)
 
 
