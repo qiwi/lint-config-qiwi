@@ -1,3 +1,10 @@
+# tslint-config-qiwi [1.7.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.6.3...tslint-config-qiwi@1.7.0) (2021-04-21)
+
+
+### Features
+
+* **eslint:** update unicorn preset to 30.0.0 ([8fcaeea](https://github.com/qiwi/lint-config-qiwi/commit/8fcaeeae43eb12dc0923492f2924a59956931bd3))
+
 ## tslint-config-qiwi [1.6.3](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.6.2...tslint-config-qiwi@1.6.3) (2021-02-21)
 
 
