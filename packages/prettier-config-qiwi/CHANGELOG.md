@@ -1,3 +1,10 @@
+# prettier-config-qiwi [1.4.0](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.3.3...prettier-config-qiwi@1.4.0) (2021-04-21)
+
+
+### Features
+
+* **eslint:** update unicorn preset to 30.0.0 ([8fcaeea](https://github.com/qiwi/lint-config-qiwi/commit/8fcaeeae43eb12dc0923492f2924a59956931bd3))
+
 ## prettier-config-qiwi [1.3.3](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.3.2...prettier-config-qiwi@1.3.3) (2021-02-21)
 
 
