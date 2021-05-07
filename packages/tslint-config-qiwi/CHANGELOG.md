@@ -1,3 +1,10 @@
+## tslint-config-qiwi [1.7.1](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.7.0...tslint-config-qiwi@1.7.1) (2021-05-07)
+
+
+### Performance Improvements
+
+* **deps:** deps revision ([5471172](https://github.com/qiwi/lint-config-qiwi/commit/5471172696e891c1745368fd46a13d53fa112bdc))
+
 # tslint-config-qiwi [1.7.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.6.3...tslint-config-qiwi@1.7.0) (2021-04-21)
 
 
