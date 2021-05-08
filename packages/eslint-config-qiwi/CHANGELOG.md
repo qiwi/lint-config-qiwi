@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.11.4](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.11.3...eslint-config-qiwi@1.11.4) (2021-05-08)
+
+
+### Bug Fixes
+
+* **eslint:** replace standard with standard-qiwi config ([737f965](https://github.com/qiwi/lint-config-qiwi/commit/737f965af789171f0548be18b4e484340c8553f3))
+
 ## eslint-config-qiwi [1.11.3](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.11.2...eslint-config-qiwi@1.11.3) (2021-05-07)
 
 
