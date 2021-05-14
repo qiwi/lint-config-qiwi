@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.12.1](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.12.0...eslint-config-qiwi@1.12.1) (2021-05-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v32 ([12a65b5](https://github.com/qiwi/lint-config-qiwi/commit/12a65b507be59d23b8da3cecf4a6e786c7631679))
+
 # eslint-config-qiwi [1.12.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.11.4...eslint-config-qiwi@1.12.0) (2021-05-14)
 
 
