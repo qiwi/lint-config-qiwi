@@ -1,3 +1,10 @@
+# eslint-config-qiwi [1.12.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.11.4...eslint-config-qiwi@1.12.0) (2021-05-14)
+
+
+### Features
+
+* tsx, jsx rules ([a4df816](https://github.com/qiwi/lint-config-qiwi/commit/a4df816559be5f5852269754e5ac9d144cea93ee))
+
 ## eslint-config-qiwi [1.11.4](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.11.3...eslint-config-qiwi@1.11.4) (2021-05-08)
 
 
