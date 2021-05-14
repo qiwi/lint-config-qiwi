@@ -121,6 +121,14 @@ module.exports = {
       rules: {
         '@typescript-eslint/explicit-module-boundary-types': 'off'
       }
+    },
+    {
+      files: ['*.tsx', '*.jsx'],
+      rules: {
+        'no-use-before-define': 'off',
+        '@typescript-eslint/no-use-before-define': ['error'],
+        'multiline-ternary': 'off'
+      }
     }
   ]
 }
