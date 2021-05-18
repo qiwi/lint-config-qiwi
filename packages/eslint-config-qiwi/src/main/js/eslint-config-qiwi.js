@@ -126,6 +126,7 @@ module.exports = {
       files: ['*.tsx', '*.jsx'],
       rules: {
         'no-use-before-define': 'off',
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/no-use-before-define': ['error'],
         'multiline-ternary': 'off'
       }
