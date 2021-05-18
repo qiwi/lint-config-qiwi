@@ -1,3 +1,10 @@
+# eslint-config-qiwi [1.13.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.12.1...eslint-config-qiwi@1.13.0) (2021-05-18)
+
+
+### Features
+
+* disable explicit-module-boundary-types ([0875282](https://github.com/qiwi/lint-config-qiwi/commit/0875282d4dcb03193dd7bafbb9fc305d8222e2f2))
+
 ## eslint-config-qiwi [1.12.1](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.12.0...eslint-config-qiwi@1.12.1) (2021-05-14)
 
 
