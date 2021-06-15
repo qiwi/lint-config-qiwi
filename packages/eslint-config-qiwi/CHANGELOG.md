@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.13.1](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.13.0...eslint-config-qiwi@1.13.1) (2021-06-15)
+
+
+### Bug Fixes
+
+* add ts as dependencty to eslint ([#96](https://github.com/qiwi/lint-config-qiwi/issues/96)) ([59ddf67](https://github.com/qiwi/lint-config-qiwi/commit/59ddf67191f1273f63843e8319bef90bcdfb56a4)), closes [#95](https://github.com/qiwi/lint-config-qiwi/issues/95)
+
 # eslint-config-qiwi [1.13.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.12.1...eslint-config-qiwi@1.13.0) (2021-05-18)
 
 
