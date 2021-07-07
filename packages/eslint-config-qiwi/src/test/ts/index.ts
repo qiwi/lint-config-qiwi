@@ -3,8 +3,6 @@ import {resolve} from 'path'
 import * as config from '../../main/js/eslint-config-qiwi.js'
 
 describe('eslint-config-qiwi (TypeScript)', () => {
-  jest.setTimeout(10000)
-
   it('config is exposed as js', () => {
     expect(config).toEqual(expect.any(Object))
   })
