@@ -1,3 +1,10 @@
+## prettier-config-qiwi [1.4.2](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.4.1...prettier-config-qiwi@1.4.2) (2021-07-07)
+
+
+### Performance Improvements
+
+* update deps ([#101](https://github.com/qiwi/lint-config-qiwi/issues/101)) ([29d37f4](https://github.com/qiwi/lint-config-qiwi/commit/29d37f45c5eeb2f4ab985a550a871ace77ef0777))
+
 ## prettier-config-qiwi [1.4.1](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.4.0...prettier-config-qiwi@1.4.1) (2021-05-07)
 
 
