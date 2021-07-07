@@ -21,17 +21,17 @@
     "**/hosted-git-info": "^4.0.1"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.23",
-    "@types/lodash": "^4.14.170",
+    "@types/jest": "^26.0.24",
+    "@types/lodash": "^4.14.171",
     "@types/node": "^15.12.2",
-    "coveralls": "^3.1.0",
+    "coveralls": "^3.1.1",
     "find-git-root": "^1.0.4",
-    "jest": "^27.0.4",
+    "jest": "^27.0.6",
     "lerna": "^4.0.0",
     "lodash": "^4.17.21",
     "snazzy": "^9.0.0",
     "ts-jest": "^27.0.3",
-    "typedoc": "0.21.0-beta.3",
+    "typedoc": "0.21.2",
     "typescript": "^4.3.2",
     "yargs": "^17.0.1"
   }
