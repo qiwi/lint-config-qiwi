@@ -1,3 +1,10 @@
+# tslint-config-qiwi [1.8.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.7.1...tslint-config-qiwi@1.8.0) (2021-07-07)
+
+
+### Features
+
+* **tslint:** turn off no-unnecessary-type-assertion ([#100](https://github.com/qiwi/lint-config-qiwi/issues/100)) ([9a85aef](https://github.com/qiwi/lint-config-qiwi/commit/9a85aefaaa2edf2bf7844edf97f5ecfe2eaaac09))
+
 ## tslint-config-qiwi [1.7.1](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.7.0...tslint-config-qiwi@1.7.1) (2021-05-07)
 
 
