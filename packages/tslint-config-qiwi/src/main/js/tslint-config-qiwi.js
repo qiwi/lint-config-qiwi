@@ -6,6 +6,7 @@ const rules = {
   'jsx-boolean-value': false,
   'jsx-no-lambda': false,
   'jsx-no-multiline-js': false,
+  'no-unnecessary-type-assertion': false,
   'no-consecutive-blank-lines': [
     true,
     1,
