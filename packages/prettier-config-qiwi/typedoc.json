@@ -1,6 +1,7 @@
 {
   "name": "prettier-config-qiwi",
   "out": "./docs",
+  "entryPoints": ["./src/main/js"],
   "exclude": ["test", "**/node_modules/**"],
   "externalPattern": "**/node_modules/**",
   "excludePrivate": false,

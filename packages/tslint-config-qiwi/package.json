@@ -10,7 +10,7 @@
     "test:spec": "jest -w=1 --config=jest.config.json",
     "test:report": "yarn test && yarn coveralls:push",
     "lint": "tslint --config src/main/js/tslint-config-qiwi.js --project tsconfig.json",
-    "docs": "typedoc --options ./typedoc.json ./src/main"
+    "docs": "typedoc"
   },
   "files": [
     "README.md",
@@ -35,12 +35,12 @@
     "tslint-react": "^5.0.0"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.0",
+    "@types/jest": "^27.0.2",
     "coveralls": "^3.1.1",
-    "jest": "^27.0.6",
-    "ts-jest": "^27.0.3",
+    "jest": "^27.2.5",
+    "ts-jest": "^27.0.5",
     "tslint": "^6.1.3",
-    "typescript": "^4.3.2",
+    "typescript": "^4.4.3",
     "stdstream-snapshot": "^1.2.5"
   },
   "peerDependencies": {},
