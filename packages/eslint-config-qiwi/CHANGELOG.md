@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.13.7](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.13.6...eslint-config-qiwi@1.13.7) (2021-10-10)
+
+
+### Bug Fixes
+
+* **package:** update deps, fix some vuls ([3700cc9](https://github.com/qiwi/lint-config-qiwi/commit/3700cc9b700378543e3d33db0ae8beb1fe8acb2c))
+
 ## eslint-config-qiwi [1.13.6](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.13.5...eslint-config-qiwi@1.13.6) (2021-09-11)
 
 
