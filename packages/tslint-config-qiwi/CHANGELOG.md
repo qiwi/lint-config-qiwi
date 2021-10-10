@@ -1,3 +1,10 @@
+## tslint-config-qiwi [1.8.2](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.8.1...tslint-config-qiwi@1.8.2) (2021-10-10)
+
+
+### Bug Fixes
+
+* **package:** update deps, fix some vuls ([3700cc9](https://github.com/qiwi/lint-config-qiwi/commit/3700cc9b700378543e3d33db0ae8beb1fe8acb2c))
+
 ## tslint-config-qiwi [1.8.1](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.8.0...tslint-config-qiwi@1.8.1) (2021-07-07)
 
 
