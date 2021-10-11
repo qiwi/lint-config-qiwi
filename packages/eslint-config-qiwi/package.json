@@ -31,8 +31,8 @@
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
     "eslint-config-standard-qiwi": "^16.0.3",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-import": "^2.24.2",
