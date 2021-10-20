@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qiwi",
-  "version": "1.13.7",
+  "version": "1.14.0",
   "description": "ESLint rules related to QIWI projects",
   "main": "src/main/js/eslint-config-qiwi.js",
   "scripts": {
