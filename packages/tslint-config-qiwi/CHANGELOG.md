@@ -1,3 +1,10 @@
+# tslint-config-qiwi [1.9.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.8.2...tslint-config-qiwi@1.9.0) (2021-10-20)
+
+
+### Features
+
+* update eslint to v8.0.1 ([d75277f](https://github.com/qiwi/lint-config-qiwi/commit/d75277fa85ca67ff0863719cf2f1c0a982ce65f6))
+
 ## tslint-config-qiwi [1.8.2](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.8.1...tslint-config-qiwi@1.8.2) (2021-10-10)
 
 

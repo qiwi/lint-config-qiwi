@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-qiwi",
-  "version": "1.8.2",
+  "version": "1.9.0",
   "description": "TSLint rules related to QIWI projects",
   "main": "src/main/js/tslint-config-qiwi.js",
   "scripts": {
