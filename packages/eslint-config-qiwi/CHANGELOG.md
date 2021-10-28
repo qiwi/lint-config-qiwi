@@ -1,3 +1,10 @@
+# eslint-config-qiwi [1.15.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.14.0...eslint-config-qiwi@1.15.0) (2021-10-28)
+
+
+### Features
+
+* **eslint:** update eslint to v8.1.0, update eslint-plugin-promise to v5.1.1 ([76f616a](https://github.com/qiwi/lint-config-qiwi/commit/76f616a1e67c3c4e8dde6dd377303c65de9641e2))
+
 # eslint-config-qiwi [1.14.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.13.7...eslint-config-qiwi@1.14.0) (2021-10-20)
 
 
