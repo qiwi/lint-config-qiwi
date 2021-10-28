@@ -5,5 +5,5 @@
     "<rootDir>/packages/tslint-config-qiwi/jest.config.json",
     "<rootDir>/packages/prettier-config-qiwi/jest.config.json"
   ],
-  "testTimeout": 10000
+  "testTimeout": 15000
 }
