@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.15.3](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.15.2...eslint-config-qiwi@1.15.3) (2021-12-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-promise to v6 ([847c452](https://github.com/qiwi/lint-config-qiwi/commit/847c45274f5d58027d9ac69be6381ec15038faac))
+
 ## eslint-config-qiwi [1.15.2](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.15.1...eslint-config-qiwi@1.15.2) (2021-11-21)
 
 
