@@ -1,3 +1,10 @@
+# tslint-config-qiwi [1.10.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.9.0...tslint-config-qiwi@1.10.0) (2022-01-14)
+
+
+### Features
+
+* update sonar rules ([c9623a4](https://github.com/qiwi/lint-config-qiwi/commit/c9623a427dd9907708048a3cabef075fa05efb73))
+
 # tslint-config-qiwi [1.9.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.8.2...tslint-config-qiwi@1.9.0) (2021-10-20)
 
 
