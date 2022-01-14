@@ -1,3 +1,10 @@
+# prettier-config-qiwi [1.6.0](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.5.0...prettier-config-qiwi@1.6.0) (2022-01-14)
+
+
+### Features
+
+* update sonar rules ([c9623a4](https://github.com/qiwi/lint-config-qiwi/commit/c9623a427dd9907708048a3cabef075fa05efb73))
+
 # prettier-config-qiwi [1.5.0](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.4.3...prettier-config-qiwi@1.5.0) (2021-10-20)
 
 
