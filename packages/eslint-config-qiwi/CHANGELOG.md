@@ -1,3 +1,10 @@
+# eslint-config-qiwi [1.16.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.15.4...eslint-config-qiwi@1.16.0) (2022-01-14)
+
+
+### Features
+
+* update sonar rules ([c9623a4](https://github.com/qiwi/lint-config-qiwi/commit/c9623a427dd9907708048a3cabef075fa05efb73))
+
 ## eslint-config-qiwi [1.15.4](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.15.3...eslint-config-qiwi@1.15.4) (2021-12-31)
 
 
