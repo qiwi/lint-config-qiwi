@@ -7,7 +7,7 @@ Object {
     "killed": false,
     "signal": null,
   },
-  "stderr": "",
+  "stderr": "Warning: React version was set to \\"detect\\" in eslint-plugin-react settings, but the \\"react\\" package is not installed. Assuming latest React version for linting.",
   "stdout": "/packages/eslint-config-qiwi/src/test/ts/rules/imports-fail.ts
   1:1  error  Run autofix to sort these imports!  simple-import-sort/imports
 
