@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.16.1](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.16.0...eslint-config-qiwi@1.16.1) (2022-03-06)
+
+
+### Bug Fixes
+
+* up deps, inherit rules, fix some vuls ([5ebccd8](https://github.com/qiwi/lint-config-qiwi/commit/5ebccd839e555cd7aa6855e52028a64a8374a9cb))
+
 # eslint-config-qiwi [1.16.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.15.4...eslint-config-qiwi@1.16.0) (2022-01-14)
 
 
