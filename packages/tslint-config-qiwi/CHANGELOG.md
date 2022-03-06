@@ -1,3 +1,10 @@
+## tslint-config-qiwi [1.10.1](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.10.0...tslint-config-qiwi@1.10.1) (2022-03-06)
+
+
+### Bug Fixes
+
+* up deps, inherit rules, fix some vuls ([5ebccd8](https://github.com/qiwi/lint-config-qiwi/commit/5ebccd839e555cd7aa6855e52028a64a8374a9cb))
+
 # tslint-config-qiwi [1.10.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.9.0...tslint-config-qiwi@1.10.0) (2022-01-14)
 
 
