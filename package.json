@@ -18,7 +18,7 @@
     "postupdate": "yarn && yarn bootstrap && npx browserslist@latest --update-db && npx yarn-audit-fix && yarn build && yarn test"
   },
   "resolutions": {
-    "**/hosted-git-info": "^4.0.1"
+    "**/hosted-git-info": "^5.0.0"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",

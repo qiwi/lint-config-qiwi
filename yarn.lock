@@ -4095,12 +4095,12 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-hosted-git-info@^2.1.4, hosted-git-info@^4.0.1:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-4.0.2.tgz#5e425507eede4fea846b7262f0838456c4209961"
-  integrity sha512-c9OGXbZ3guC/xOlCg1Ci/VgWlwsqDv1yMQL1CWqXDL0hDjXuNcq0zuR4xqPSuasI3kqFDhqSyTjREz5gzq0fXg==
+hosted-git-info@^2.1.4, hosted-git-info@^4.0.1, hosted-git-info@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-5.0.0.tgz#df7a06678b4ebd722139786303db80fdf302ea56"
+  integrity sha512-rRnjWu0Bxj+nIfUOkz0695C0H6tRrN5iYIzYejb0tDEefe2AekHu/U5Kn9pEie5vsJqpNQU02az7TGSH3qpz4Q==
   dependencies:
-    lru-cache "^6.0.0"
+    lru-cache "^7.5.1"
 
 html-encoding-sniffer@^2.0.1:
   version "2.0.1"
@@ -5373,6 +5373,11 @@ lru-cache@^6.0.0:
   integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
   dependencies:
     yallist "^4.0.0"
+
+lru-cache@^7.5.1:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.5.1.tgz#660a134c2c3c015aa453b03df55d2a9f0c216a0f"
+  integrity sha512-q1TS8IqKvcg3aScamKCHpepSrHF537Ww7nHahBOxhDu9D2YoBXAsj/7uFdZFj1xJr9LmyeJ62AdyofCHafUbIA==
 
 lunr@^2.3.9:
   version "2.3.9"
