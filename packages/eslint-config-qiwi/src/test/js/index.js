@@ -10,8 +10,9 @@ describe('eslint-config-qiwi (JavaScript)', () => {
   it('config works as expected', async () => {
     const configPath = resolve(__dirname, '../../main/js/eslint-config-qiwi.js')
     const rulesPath = resolve(__dirname, 'rules/*.js')
+    const eslint = resolve(__dirname, '../../../../../node_modules/.bin/eslint')
     const result = await generateSnapshot({
-      cmd: `eslint --config ${configPath} ${rulesPath}`
+      cmd: `${eslint} --config ${configPath} ${rulesPath}`
     })
 
     expect(result).toMatchSnapshot()

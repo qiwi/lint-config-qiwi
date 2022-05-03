@@ -26,13 +26,14 @@ describe('', () => {
   it('formats as expected', async () => {
     const configPath = resolve(__dirname, '../../main/js/index.js')
 
+    const prettier = resolve(__dirname, '../../../../../node_modules/.bin/prettier')
     const input = resolve(__dirname, '../fixtures/input.ts')
     const output = resolve(__dirname, '../fixtures/output.ts')
     const temp = resolve(tmpDir, 'index.ts')
 
     copyFileSync(input, temp)
 
-    execSync(`prettier --config ${configPath} --write ${temp}`)
+    execSync(`${prettier} --config ${configPath} --write ${temp}`)
 
     expect(readFileSync(temp, 'utf-8')).toBe(readFileSync(output, 'utf-8'))
   })
