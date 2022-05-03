@@ -1,10 +1,28 @@
 {
   "branch": "master",
   "plugins": [
+    [
+      "@qiwi/semrel-metabranch",
+      {
+        "publish": {
+          "action": "push",
+          "branch": "gh-pages",
+          "from": "./docs",
+          "to": "./tslint-config-qiwi",
+          "message": "update docs ${nextRelease.gitTag}"
+        }
+      }
+    ],
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/npm",
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn install && git add ../../yarn.lock"
+      }
+    ],
     [
       "@semantic-release/github",
       {
@@ -12,15 +30,10 @@
         "failComment": false
       }
     ],
-    "@semantic-release/git",
     [
-      "@qiwi/semantic-release-gh-pages-plugin",
+      "@semantic-release/git",
       {
-        "branch": "gh-pages",
-        "msg": "docs updated <%= nextRelease.gitTag %>",
-        "src": "packages/tslint-config-qiwi/docs",
-        "dst": "./tslint-config-qiwi",
-        "pullTagsBranch": ""
+        "message": "chore(release): ${nextRelease.gitTag} [skip ci]\n\n${nextRelease.notes}"
       }
     ]
   ]
