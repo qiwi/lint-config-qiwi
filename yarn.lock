@@ -1008,7 +1008,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@qiwi/lint-config-infra@*, @qiwi/lint-config-infra@workspace:packages/infra":
+"@qiwi/lint-config-infra@*, @qiwi/lint-config-infra@1.0.0, @qiwi/lint-config-infra@workspace:packages/infra":
   version: 0.0.0-use.local
   resolution: "@qiwi/lint-config-infra@workspace:packages/infra"
   dependencies:
@@ -2617,7 +2617,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eslint-config-qiwi@workspace:packages/eslint-config-qiwi"
   dependencies:
-    "@qiwi/lint-config-infra": "*"
+    "@qiwi/lint-config-infra": 1.0.0
     "@swissquote/crafty-preset-jest": ^1.19.1
     "@types/jest": ^27.5.0
     "@typescript-eslint/eslint-plugin": ^5.22.0

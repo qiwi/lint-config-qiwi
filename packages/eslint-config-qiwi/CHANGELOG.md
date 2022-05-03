@@ -1,3 +1,25 @@
+# eslint-config-qiwi [1.17.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.16.1...eslint-config-qiwi@1.17.0) (2022-05-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-sonarjs to ^0.13.0 ([38c5705](https://github.com/qiwi/lint-config-qiwi/commit/38c5705919dc519ec94cdacc1d22ade12265adf8))
+* **deps:** update dependency eslint-plugin-unicorn to v42 ([e375f93](https://github.com/qiwi/lint-config-qiwi/commit/e375f9359c606f5a04aaa9a05a50d6801a96c353))
+* up deps, fix vuls, drop lerna ([0056b6d](https://github.com/qiwi/lint-config-qiwi/commit/0056b6db7364edeb0f19ed528abcde104bfa51b4))
+
+
+### Features
+
+* tech release ([36ba284](https://github.com/qiwi/lint-config-qiwi/commit/36ba2844636bca1557b2a8b597a4a750bc292498))
+
+
+
+
+
+### Dependencies
+
+* **@qiwi/lint-config-infra:** upgraded to 1.0.0
+
 ## eslint-config-qiwi [1.16.1](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.16.0...eslint-config-qiwi@1.16.1) (2022-03-06)
 
 
