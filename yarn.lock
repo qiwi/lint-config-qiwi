@@ -5960,7 +5960,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "prettier-config-qiwi@workspace:packages/prettier-config-qiwi"
   dependencies:
-    "@qiwi/lint-config-infra": "*"
+    "@qiwi/lint-config-infra": 1.0.0
     "@swissquote/crafty-preset-jest": ^1.19.1
     jest: ^28.0.3
     prettier: ^2.6.2
