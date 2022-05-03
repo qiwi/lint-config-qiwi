@@ -28,5 +28,5 @@ eslint -c /any/path/to/.eslintrc.json --fix
 ## Contribution
 If you find this config not strong enough you may add additional rules, write some tests, and trigger assets generation.
 ```bash
-yarn test:gen
+yarn test:u
 ```
