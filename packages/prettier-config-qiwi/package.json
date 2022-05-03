@@ -27,15 +27,11 @@
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "devDependencies": {
-    "@swissquote/crafty-preset-jest": "^1.18.4",
-    "coveralls": "^3.1.1",
-    "jest": "^28.0.0",
-    "prettier": "^2.5.1",
-    "stdstream-snapshot": "^1.2.5",
+    "@swissquote/crafty-preset-jest": "^1.19.1",
+    "jest": "^28.0.3",
+    "prettier": "^2.6.2",
+    "stdstream-snapshot": "^1.2.6",
     "ts-jest": "^28.0.0",
-    "typescript": "^4.6.2"
-  },
-  "peerDependencies": {},
-  "optionalDependencies": {},
-  "dependencies": {}
+    "typescript": "^4.6.4"
+  }
 }

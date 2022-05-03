@@ -6,7 +6,7 @@
   "scripts": {
     "build": "yarn docs",
     "test": "yarn test:spec",
-    "test:gen": "yarn jest --updateSnapshot",
+    "test:u": "yarn jest --updateSnapshot",
     "test:spec": "jest -w=1 --config=jest.config.json",
     "test:report": "yarn test && yarn coveralls:push",
     "lint": "eslint --config src/main/js/eslint-config-qiwi.js src/main/js/eslint-config-qiwi.js",
@@ -31,30 +31,27 @@
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.13.0",
-    "@typescript-eslint/parser": "^5.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
     "eslint-config-standard-qiwi": "^16.0.5",
     "eslint-plugin-array-func": "^3.1.7",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-n": "^15.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.29.3",
-    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.13.0",
     "eslint-plugin-unicorn": "^42.0.0",
     "typescript": "*"
   },
   "devDependencies": {
-    "@swissquote/crafty-preset-jest": "^1.18.4",
-    "@types/jest": "^27.4.1",
-    "coveralls": "^3.1.1",
-    "eslint": "^8.10.0",
-    "jest": "^28.0.0",
-    "stdstream-snapshot": "^1.2.5",
+    "@swissquote/crafty-preset-jest": "^1.19.1",
+    "@types/jest": "^27.5.0",
+    "eslint": "^8.14.0",
+    "jest": "^28.0.3",
+    "stdstream-snapshot": "^1.2.6",
     "ts-jest": "^28.0.0"
-  },
-  "peerDependencies": {},
-  "optionalDependencies": {}
+  }
 }

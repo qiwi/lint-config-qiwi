@@ -6,7 +6,7 @@
   "scripts": {
     "build": "yarn docs",
     "test": "yarn lint && yarn test:spec",
-    "test:gen": "yarn jest -u",
+    "test:u": "yarn jest -u",
     "test:spec": "jest -w=1 --config=jest.config.json",
     "test:report": "yarn test && yarn coveralls:push",
     "lint": "tslint --config src/main/js/tslint-config-qiwi.js --project tsconfig.json",
@@ -35,14 +35,12 @@
     "tslint-react": "^5.0.0"
   },
   "devDependencies": {
-    "@types/jest": "^27.4.1",
+    "@types/jest": "^27.5.0",
     "coveralls": "^3.1.1",
-    "jest": "^28.0.0",
+    "jest": "^28.0.3",
+    "stdstream-snapshot": "^1.2.6",
     "ts-jest": "^28.0.0",
     "tslint": "^6.1.3",
-    "typescript": "^4.6.2",
-    "stdstream-snapshot": "^1.2.5"
-  },
-  "peerDependencies": {},
-  "optionalDependencies": {}
+    "typescript": "^4.6.4"
+  }
 }
