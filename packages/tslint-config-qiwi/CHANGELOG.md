@@ -1,3 +1,23 @@
+# tslint-config-qiwi [1.11.0](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.10.1...tslint-config-qiwi@1.11.0) (2022-05-03)
+
+
+### Bug Fixes
+
+* up deps, fix vuls, drop lerna ([0056b6d](https://github.com/qiwi/lint-config-qiwi/commit/0056b6db7364edeb0f19ed528abcde104bfa51b4))
+
+
+### Features
+
+* tech release ([36ba284](https://github.com/qiwi/lint-config-qiwi/commit/36ba2844636bca1557b2a8b597a4a750bc292498))
+
+
+
+
+
+### Dependencies
+
+* **@qiwi/lint-config-infra:** upgraded to 1.0.0
+
 ## tslint-config-qiwi [1.10.1](https://github.com/qiwi/lint-config-qiwi/compare/tslint-config-qiwi@1.10.0...tslint-config-qiwi@1.10.1) (2022-03-06)
 
 
