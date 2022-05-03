@@ -47,6 +47,7 @@
     "typescript": "*"
   },
   "devDependencies": {
+    "@qiwi/lint-config-infra": "*",
     "@swissquote/crafty-preset-jest": "^1.19.1",
     "@types/jest": "^27.5.0",
     "eslint": "^8.14.0",
