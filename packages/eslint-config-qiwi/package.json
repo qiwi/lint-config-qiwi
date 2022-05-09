@@ -43,16 +43,18 @@
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.13.0",
-    "eslint-plugin-unicorn": "^42.0.0",
-    "typescript": "*"
+    "eslint-plugin-unicorn": "^42.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "*"
   },
   "devDependencies": {
     "@qiwi/lint-config-infra": "1.0.0",
     "@swissquote/crafty-preset-jest": "^1.19.1",
     "@types/jest": "^27.5.0",
     "eslint": "^8.14.0",
-    "jest": "^28.0.3",
+    "jest": "^28.1.0",
     "stdstream-snapshot": "^1.2.6",
-    "ts-jest": "^28.0.0"
+    "ts-jest": "^28.0.2"
   }
 }
