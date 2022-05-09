@@ -1,3 +1,18 @@
+## prettier-config-qiwi [1.7.1](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.7.0...prettier-config-qiwi@1.7.1) (2022-05-09)
+
+
+### Bug Fixes
+
+* deps revision ([ce0924d](https://github.com/qiwi/lint-config-qiwi/commit/ce0924d46c2e18615cb8801c93607392945d9ed6))
+
+
+
+
+
+### Dependencies
+
+* **@qiwi/lint-config-infra:** upgraded to 1.0.1
+
 # prettier-config-qiwi [1.7.0](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.6.1...prettier-config-qiwi@1.7.0) (2022-05-03)
 
 
