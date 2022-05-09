@@ -1,3 +1,18 @@
+## eslint-config-qiwi [1.17.1](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.17.0...eslint-config-qiwi@1.17.1) (2022-05-09)
+
+
+### Bug Fixes
+
+* deps revision ([ce0924d](https://github.com/qiwi/lint-config-qiwi/commit/ce0924d46c2e18615cb8801c93607392945d9ed6))
+
+
+
+
+
+### Dependencies
+
+* **@qiwi/lint-config-infra:** upgraded to 1.0.1
+
 # eslint-config-qiwi [1.17.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.16.1...eslint-config-qiwi@1.17.0) (2022-05-03)
 
 
