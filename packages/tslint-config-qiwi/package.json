@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@qiwi/lint-config-infra": "1.0.1",
-    "@types/jest": "^27.5.0",
+    "@types/jest": "^28.0.0",
     "coveralls": "^3.1.1",
     "jest": "^28.1.0",
     "stdstream-snapshot": "^1.2.6",
