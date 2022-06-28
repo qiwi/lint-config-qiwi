@@ -1,3 +1,18 @@
+## eslint-config-qiwi [1.17.2](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.17.1...eslint-config-qiwi@1.17.2) (2022-06-28)
+
+
+### Bug Fixes
+
+* up deps, rm useless badges ([1693aa1](https://github.com/qiwi/lint-config-qiwi/commit/1693aa114a2b45effe759ec3e3f4f298e648afff))
+
+
+
+
+
+### Dependencies
+
+* **@qiwi/lint-config-infra:** upgraded to 1.0.2
+
 ## eslint-config-qiwi [1.17.1](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.17.0...eslint-config-qiwi@1.17.1) (2022-05-09)
 
 
