@@ -1,13 +1,12 @@
 # tslint-config-qiwi
-[![Build Status](https://travis-ci.com/qiwi/lint-config-qiwi.svg?branch=master)](https://travis-ci.com/qiwi/lint-config-qiwi)
-[![npm (tag)](https://img.shields.io/npm/v/tslint-config-qiwi/latest.svg)](https://www.npmjs.com/package/tslint-config-qiwi)
-[![dependencyStatus](https://img.shields.io/david/qiwi/lint-config-qiwi.svg?maxAge=300)](https://david-dm.org/qiwi/lint-config-qiwi)
+[![CI](https://github.com/qiwi/lint-config-qiwi/workflows/CI/badge.svg)](https://github.com/qiwi/lint-config-qiwi/actions)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/test_coverage)](https://codeclimate.com/github/qiwi/lint-config-qiwi/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/maintainability)](https://codeclimate.com/github/qiwi/lint-config-qiwi/maintainability)
+[![npm (scoped)](https://img.shields.io/npm/v/prettier-config-qiwi?label=npm&color=39f)](https://www.npmjs.com/package/prettier-config-qiwi)
 
 [TSLint](https://github.com/palantir/tslint/) rules related to QIWI projects. Based on [tslint-config-standard](https://github.com/blakeembrey/tslint-config-standard) and [tslint-react](https://github.com/palantir/tslint-react).
 
-:warning: __TSLint will be deprecated some time in 2019__. See this issue for more details: [Roadmap: TSLint &rarr; ESLint](https://github.com/palantir/tslint/issues/4534).  
+⚠️ TSLint is deprecated since 2019: [TSLint &rarr; ESLint](https://github.com/palantir/tslint/issues/4534). 
 Use [eslint-config-qiwi](../eslint-config-qiwi/README.md) instead.
 
 ## Install
@@ -33,3 +32,6 @@ If you find this config not strong enough you may add additional rules, write so
 ```bash
 yarn test:u
 ```
+
+## License
+MIT

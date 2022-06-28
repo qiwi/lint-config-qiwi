@@ -1,9 +1,8 @@
 # eslint-config-qiwi
-[![Build Status](https://travis-ci.com/qiwi/lint-config-qiwi.svg?branch=master)](https://travis-ci.com/qiwi/lint-config-qiwi)
-[![npm (tag)](https://img.shields.io/npm/v/eslint-config-qiwi/latest.svg)](https://www.npmjs.com/package/eslint-config-qiwi)
-[![dependencyStatus](https://img.shields.io/david/qiwi/lint-config-qiwi.svg?maxAge=300)](https://david-dm.org/qiwi/lint-config-qiwi)
+[![CI](https://github.com/qiwi/lint-config-qiwi/workflows/CI/badge.svg)](https://github.com/qiwi/lint-config-qiwi/actions)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/test_coverage)](https://codeclimate.com/github/qiwi/lint-config-qiwi/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/maintainability)](https://codeclimate.com/github/qiwi/lint-config-qiwi/maintainability)
+[![npm (scoped)](https://img.shields.io/npm/v/eslint-config-qiwi?label=npm&color=39f)](https://www.npmjs.com/package/eslint-config-qiwi)
 
 [ESLint](https://eslint.org) rules related to QIWI projects.
 
@@ -30,3 +29,6 @@ If you find this config not strong enough you may add additional rules, write so
 ```bash
 yarn test:u
 ```
+
+## License
+MIT

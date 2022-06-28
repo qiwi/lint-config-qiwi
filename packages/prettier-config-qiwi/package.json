@@ -29,10 +29,10 @@
   "devDependencies": {
     "@qiwi/lint-config-infra": "1.0.1",
     "@swissquote/crafty-preset-jest": "^1.19.1",
-    "jest": "^28.1.0",
-    "prettier": "^2.6.2",
+    "jest": "^28.1.1",
+    "prettier": "^2.7.1",
     "stdstream-snapshot": "^1.2.6",
-    "ts-jest": "^28.0.2",
-    "typescript": "^4.6.4"
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
   }
 }

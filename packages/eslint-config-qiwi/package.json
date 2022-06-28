@@ -31,16 +31,16 @@
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
     "eslint-config-standard-qiwi": "^16.0.5",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-n": "^15.2.3",
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.13.0",
     "eslint-plugin-unicorn": "^42.0.0"
@@ -51,10 +51,10 @@
   "devDependencies": {
     "@qiwi/lint-config-infra": "1.0.1",
     "@swissquote/crafty-preset-jest": "^1.19.1",
-    "@types/jest": "^28.0.0",
+    "@types/jest": "^28.1.3",
     "eslint": "^8.14.0",
-    "jest": "^28.1.0",
+    "jest": "^28.1.1",
     "stdstream-snapshot": "^1.2.6",
-    "ts-jest": "^28.0.2"
+    "ts-jest": "^28.0.5"
   }
 }
