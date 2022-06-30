@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.17.3](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.17.2...eslint-config-qiwi@1.17.3) (2022-06-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v43 ([284548e](https://github.com/qiwi/lint-config-qiwi/commit/284548efd0617b3c9704f3112947e2ac618d2a21))
+
 ## eslint-config-qiwi [1.17.2](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.17.1...eslint-config-qiwi@1.17.2) (2022-06-28)
 
 
