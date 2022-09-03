@@ -1,3 +1,10 @@
+## eslint-config-qiwi [1.17.6](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.17.5...eslint-config-qiwi@1.17.6) (2022-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-simple-import-sort to v8 ([5523797](https://github.com/qiwi/lint-config-qiwi/commit/5523797f15f38c15de6d0bd332f3fd5e839eb679))
+
 ## eslint-config-qiwi [1.17.5](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@1.17.4...eslint-config-qiwi@1.17.5) (2022-08-08)
 
 
