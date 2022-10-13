@@ -1,3 +1,10 @@
+## @qiwi/lint-config-infra [1.0.3](https://github.com/qiwi/lint-config-qiwi/compare/@qiwi/lint-config-infra@1.0.2...@qiwi/lint-config-infra@1.0.3) (2022-10-13)
+
+
+### Performance Improvements
+
+* up deps ([815b86f](https://github.com/qiwi/lint-config-qiwi/commit/815b86f5d9d67ef74da412c487ba20988da3e475))
+
 ## @qiwi/lint-config-infra [1.0.2](https://github.com/qiwi/lint-config-qiwi/compare/@qiwi/lint-config-infra@1.0.1...@qiwi/lint-config-infra@1.0.2) (2022-06-28)
 
 
