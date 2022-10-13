@@ -840,18 +840,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@qiwi/lint-config-infra@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@qiwi/lint-config-infra@npm:1.0.2"
-  bin:
-    buildstamp: node_modules/.bin/buildstamp
-    jest: node_modules/.bin/jest
-    tsc: node_modules/.bin/tsc
-    typedoc: node_modules/.bin/typedoc
-  checksum: cc093afff2cc10ecbf1e09146a3935e0ab1b6f0d31d021c69da1004b4ffcae17f4776a2fd0d33c48f972f8601b9d376144381a8eb1541d76ab14db8ba94384dc
-  languageName: node
-  linkType: hard
-
 "@qiwi/lint-config-monorepo@workspace:.":
   version: 0.0.0-use.local
   resolution: "@qiwi/lint-config-monorepo@workspace:."
@@ -6227,7 +6215,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tslint-config-qiwi@workspace:packages/tslint-config-qiwi"
   dependencies:
-    "@qiwi/lint-config-infra": 1.0.2
+    "@qiwi/lint-config-infra": 1.0.3
     "@types/jest": ^29.1.2
     coveralls: ^3.1.1
     jest: ^29.1.2
