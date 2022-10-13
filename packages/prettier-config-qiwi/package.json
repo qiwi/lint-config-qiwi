@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-qiwi",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "Prettier rules related to QIWI projects",
   "main": "src/main/js/index",
   "scripts": {
@@ -27,7 +27,7 @@
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "devDependencies": {
-    "@qiwi/lint-config-infra": "1.0.2",
+    "@qiwi/lint-config-infra": "1.0.3",
     "@swissquote/crafty-preset-jest": "^1.20.0",
     "jest": "^29.1.2",
     "prettier": "^2.7.1",
