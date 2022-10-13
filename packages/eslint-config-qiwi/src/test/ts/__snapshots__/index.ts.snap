@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`eslint-config-qiwi (TypeScript) config works as expected 1`] = `
-Object {
-  "err": Object {
+{
+  "err": {
     "code": 1,
     "killed": false,
     "signal": null,
   },
-  "stderr": "Warning: React version was set to \\"detect\\" in eslint-plugin-react settings, but the \\"react\\" package is not installed. Assuming latest React version for linting.",
+  "stderr": "Warning: React version was set to "detect" in eslint-plugin-react settings, but the "react" package is not installed. Assuming latest React version for linting.",
   "stdout": "/packages/eslint-config-qiwi/src/test/ts/rules/imports-fail.ts
   1:1  error  Run autofix to sort these imports!  simple-import-sort/imports
 
@@ -19,11 +19,11 @@ Object {
    4:17  error  Do not use useless \`undefined\`                                            unicorn/no-useless-undefined
    5:7   error  'message' is assigned a value but never used                              @typescript-eslint/no-unused-vars
    5:7   error  'message' is never reassigned. Use 'const' instead                        prefer-const
-   5:22  error  Unnecessary escape character: \\\\o                                          no-useless-escape
+   5:22  error  Unnecessary escape character: \\o                                          no-useless-escape
    6:3   error  Unexpected var, use let or const instead                                  no-var
    6:7   error  'pattern1' is assigned a value but never used                             @typescript-eslint/no-unused-vars
    6:18  error  Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape
-   6:18  error  Unexpected control character(s) in regular expression: \\\\x1f               no-control-regex
+   6:18  error  Unexpected control character(s) in regular expression: \\x1f               no-control-regex
    6:18  error  Use uppercase characters for the value of the escape sequence             unicorn/escape-case
    6:24  error  Extra semicolon                                                           semi
    7:3   error  Unexpected var, use let or const instead                                  no-var
@@ -31,7 +31,7 @@ Object {
    7:18  error  Use a regular expression literal instead of the 'RegExp' constructor      prefer-regex-literals
    7:29  error  Use uppercase characters for the value of the escape sequence             unicorn/escape-case
    7:29  error  Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape
-   7:29  error  Unexpected control character(s) in regular expression: \\\\x1f               no-control-regex
+   7:29  error  Unexpected control character(s) in regular expression: \\x1f               no-control-regex
    7:29  error  Strings must use singlequote                                              quotes
    7:36  error  Extra semicolon                                                           semi
    9:9   error  'myRegex' is assigned a value but never used                              @typescript-eslint/no-unused-vars
@@ -51,7 +51,7 @@ Object {
   27:14  error  'declaration' is defined but never used                                   @typescript-eslint/no-unused-vars
   27:25  error  Missing space before function parentheses                                 space-before-function-paren
   27:28  error  Unexpected empty function 'declaration'                                   @typescript-eslint/no-empty-function
-  30:3   error  Expected space(s) after \\"if\\"                                              keyword-spacing
+  30:3   error  Expected space(s) after "if"                                              keyword-spacing
   30:6   error  There should be no space after this paren                                 space-in-parens
   30:7   error  This always evaluates to truthy. Consider refactoring this code           sonarjs/no-gratuitous-expressions
   30:7   error  Unexpected constant condition                                             no-constant-condition

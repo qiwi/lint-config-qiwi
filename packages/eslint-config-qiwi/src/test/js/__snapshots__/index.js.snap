@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`eslint-config-qiwi (JavaScript) config works as expected 1`] = `
-Object {
-  "err": Object {
+{
+  "err": {
     "code": 1,
     "killed": false,
     "signal": null,
   },
-  "stderr": "Warning: React version was set to \\"detect\\" in eslint-plugin-react settings, but the \\"react\\" package is not installed. Assuming latest React version for linting.",
+  "stderr": "Warning: React version was set to "detect" in eslint-plugin-react settings, but the "react" package is not installed. Assuming latest React version for linting.",
   "stdout": "/packages/eslint-config-qiwi/src/test/js/rules/trailing-comma-fail.js
   3:7   error  Missing trailing comma     comma-dangle
   9:10  error  Unexpected trailing comma  comma-dangle

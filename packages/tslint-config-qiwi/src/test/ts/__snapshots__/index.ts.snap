@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tslint-config-qiwi config works as expected 1`] = `
-Object {
-  "err": Object {
+{
+  "err": {
     "code": 2,
     "killed": false,
     "signal": null,

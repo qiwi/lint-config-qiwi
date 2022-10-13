@@ -1,4 +1,4 @@
-import {generateSnapshot} from 'stdstream-snapshot'
+import {generateSnapshot} from '@qiwi/stdstream-snapshot'
 import {resolve} from 'path'
 import * as config from '../../main/js/eslint-config-qiwi.js'
 
