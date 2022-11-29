@@ -12,6 +12,8 @@
     "test:report": "yarn test && yarn coveralls:push",
     "test:u": "yarn workspaces foreach -p run test:u --concurrency 1",
     "coveralls:push": "cat ./coverage/lcov.info | npm_config_yes=true npx coveralls || echo 'coveralls push failed :(' && exit 0",
+    "lint": "yarn workspaces foreach -p run lint",
+    "format": "yarn workspaces foreach -p run format",
     "docs": "yarn workspaces foreach -p run docs && touch ./docs/.nojekyll || exit 0",
     "deps:update": "npx npm-upgrade-monorepo",
     "postupdate": "yarn && npx browserslist@latest --update-db && npx yarn-audit-fix && yarn build && yarn test"

@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 export const bar = (foo) => {
   let name = 'John'
   let name = 'Jane'

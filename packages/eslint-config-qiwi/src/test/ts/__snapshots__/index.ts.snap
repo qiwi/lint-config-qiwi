@@ -7,78 +7,55 @@ exports[`eslint-config-qiwi (TypeScript) config works as expected 1`] = `
     "killed": false,
     "signal": null,
   },
-  "stderr": "Warning: React version was set to "detect" in eslint-plugin-react settings, but the "react" package is not installed. Assuming latest React version for linting.",
-  "stdout": "/packages/eslint-config-qiwi/src/test/ts/rules/imports-fail.ts
-  1:1  error  Run autofix to sort these imports!  simple-import-sort/imports
+  "stderr": "",
+  "stdout": "/packages/eslint-config-qiwi/src/test/ts/rules/some-rules.ts
+   1:1   error    Do not use "@ts-nocheck" because it alters compilation errors             @typescript-eslint/ban-ts-comment
+   5:7   warning  'name' is assigned a value but never used                                 @typescript-eslint/no-unused-vars
+   6:7   warning  'namefoo' is assigned a value but never used                              @typescript-eslint/no-unused-vars
+   6:7   error    'namefoo' is never reassigned. Use 'const' instead                        prefer-const
+   6:17  error    Do not use useless \`undefined\`                                            unicorn/no-useless-undefined
+   7:7   warning  'message' is assigned a value but never used                              @typescript-eslint/no-unused-vars
+   7:7   error    'message' is never reassigned. Use 'const' instead                        prefer-const
+   7:22  error    Unnecessary escape character: \\o                                          no-useless-escape
+   8:3   error    Unexpected var, use let or const instead                                  no-var
+   8:7   warning  'pattern1' is assigned a value but never used                             @typescript-eslint/no-unused-vars
+   8:18  error    Unexpected control character(s) in regular expression: \\x1f               no-control-regex
+   8:18  error    Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape
+   8:18  error    Use uppercase characters for the value of the escape sequence             unicorn/escape-case
+   9:3   error    Unexpected var, use let or const instead                                  no-var
+   9:7   warning  'pattern2' is assigned a value but never used                             @typescript-eslint/no-unused-vars
+   9:29  error    Use uppercase characters for the value of the escape sequence             unicorn/escape-case
+   9:29  error    Unexpected control character(s) in regular expression: \\x1f               no-control-regex
+   9:29  error    Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape
+  11:9   warning  'myRegex' is assigned a value but never used                              @typescript-eslint/no-unused-vars
+  11:19  error    Empty class                                                               no-empty-character-class
+  13:3   error    Unexpected var, use let or const instead                                  no-var
+  17:5   error    Duplicate case label                                                      no-duplicate-case
+  17:5   error    This case's code block is the same as the block for the case on line 15   sonarjs/no-duplicated-branches
+  17:5   error    Expected a 'break' statement before 'case'                                no-fallthrough
+  19:5   error    This case's code block is the same as the block for the case on line 17   sonarjs/no-duplicated-branches
+  19:5   error    Expected a 'break' statement before 'case'                                no-fallthrough
+  27:7   error    Do not use the '===' operator to compare against -0                       no-compare-neg-zero
+  28:10  error    This number literal will lose precision at runtime                        @typescript-eslint/no-loss-of-precision
+  28:10  error    Octal literals should not be used                                         no-octal
+  29:5   error    Move function declaration to function body root                           no-inner-declarations
+  29:14  warning  'declaration' is defined but never used                                   @typescript-eslint/no-unused-vars
+  29:28  error    Unexpected empty function 'declaration'                                   @typescript-eslint/no-empty-function
+  32:7   error    Unexpected constant condition                                             no-constant-condition
+  32:7   error    This always evaluates to truthy. Consider refactoring this code           sonarjs/no-gratuitous-expressions
+  33:9   error    Expected a conditional expression and instead saw an assignment           no-cond-assign
+  33:9   error    Unexpected constant condition                                             no-constant-condition
+  39:11  warning  'z' is assigned a value but never used                                    @typescript-eslint/no-unused-vars
+  52:18  error    Unexpected empty constructor                                              @typescript-eslint/no-empty-function
+  63:3   error    The update clause in this loop moves the variable in the wrong direction  for-direction
+  63:8   error    Unexpected var, use let or const instead                                  no-var
+  63:32  error    Empty block statement                                                     no-empty
+  64:3   error    The update clause in this loop moves the variable in the wrong direction  for-direction
+  64:8   error    Unexpected var, use let or const instead                                  no-var
+  64:33  error    Empty block statement                                                     no-empty
+  67:1   error    Read-only global 'window' should not be modified                          no-global-assign
 
-/packages/eslint-config-qiwi/src/test/ts/rules/some-rules.ts
-   3:7   error  'name' is assigned a value but never used                                 @typescript-eslint/no-unused-vars
-   4:7   error  It's not necessary to initialize 'namefoo' to undefined                   no-undef-init
-   4:7   error  'namefoo' is assigned a value but never used                              @typescript-eslint/no-unused-vars
-   4:7   error  'namefoo' is never reassigned. Use 'const' instead                        prefer-const
-   4:17  error  Do not use useless \`undefined\`                                            unicorn/no-useless-undefined
-   5:7   error  'message' is assigned a value but never used                              @typescript-eslint/no-unused-vars
-   5:7   error  'message' is never reassigned. Use 'const' instead                        prefer-const
-   5:22  error  Unnecessary escape character: \\o                                          no-useless-escape
-   6:3   error  Unexpected var, use let or const instead                                  no-var
-   6:7   error  'pattern1' is assigned a value but never used                             @typescript-eslint/no-unused-vars
-   6:18  error  Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape
-   6:18  error  Unexpected control character(s) in regular expression: \\x1f               no-control-regex
-   6:18  error  Use uppercase characters for the value of the escape sequence             unicorn/escape-case
-   6:24  error  Extra semicolon                                                           semi
-   7:3   error  Unexpected var, use let or const instead                                  no-var
-   7:7   error  'pattern2' is assigned a value but never used                             @typescript-eslint/no-unused-vars
-   7:18  error  Use a regular expression literal instead of the 'RegExp' constructor      prefer-regex-literals
-   7:29  error  Use uppercase characters for the value of the escape sequence             unicorn/escape-case
-   7:29  error  Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape
-   7:29  error  Unexpected control character(s) in regular expression: \\x1f               no-control-regex
-   7:29  error  Strings must use singlequote                                              quotes
-   7:36  error  Extra semicolon                                                           semi
-   9:9   error  'myRegex' is assigned a value but never used                              @typescript-eslint/no-unused-vars
-   9:19  error  Empty class                                                               no-empty-character-class
-  10:3   error  Object prototype is read only, properties should not be added             no-extend-native
-  11:3   error  Unexpected var, use let or const instead                                  no-var
-  15:5   error  This case's code block is the same as the block for the case on line 13   sonarjs/no-duplicated-branches
-  15:5   error  Duplicate case label                                                      no-duplicate-case
-  15:5   error  Expected a 'break' statement before 'case'                                no-fallthrough
-  17:5   error  This case's code block is the same as the block for the case on line 15   sonarjs/no-duplicated-branches
-  17:5   error  Expected a 'break' statement before 'case'                                no-fallthrough
-  21:10  error  Expected '===' and instead saw '=='                                       eqeqeq
-  25:7   error  Do not use the '===' operator to compare against -0                       no-compare-neg-zero
-  26:10  error  This number literal will lose precision at runtime                        @typescript-eslint/no-loss-of-precision
-  26:10  error  Octal literals should not be used                                         no-octal
-  27:5   error  Move function declaration to function body root                           no-inner-declarations
-  27:14  error  'declaration' is defined but never used                                   @typescript-eslint/no-unused-vars
-  27:25  error  Missing space before function parentheses                                 space-before-function-paren
-  27:28  error  Unexpected empty function 'declaration'                                   @typescript-eslint/no-empty-function
-  30:3   error  Expected space(s) after "if"                                              keyword-spacing
-  30:6   error  There should be no space after this paren                                 space-in-parens
-  30:7   error  This always evaluates to truthy. Consider refactoring this code           sonarjs/no-gratuitous-expressions
-  30:7   error  Unexpected constant condition                                             no-constant-condition
-  30:11  error  There should be no space before this paren                                space-in-parens
-  31:9   error  Expected a conditional expression and instead saw an assignment           no-cond-assign
-  31:9   error  Unexpected constant condition                                             no-constant-condition
-  37:11  error  'z' is assigned a value but never used                                    @typescript-eslint/no-unused-vars
-  42:45  error  Missing space before =>                                                   arrow-spacing
-  42:48  error  Missing space after =>                                                    arrow-spacing
-  45:26  error  Missing space before function parentheses                                 space-before-function-paren
-  46:10  error  Redundant use of \`await\` on a return value                                no-return-await
-  46:21  error  Extra semicolon                                                           semi
-  50:18  error  Unexpected empty constructor                                              @typescript-eslint/no-empty-function
-  56:17  error  Extra semicolon                                                           semi
-  61:3   error  The update clause in this loop moves the variable in the wrong direction  for-direction
-  61:8   error  Unexpected var, use let or const instead                                  no-var
-  61:32  error  Empty block statement                                                     no-empty
-  62:3   error  The update clause in this loop moves the variable in the wrong direction  for-direction
-  62:8   error  Unexpected var, use let or const instead                                  no-var
-  62:33  error  Empty block statement                                                     no-empty
-  65:1   error  Read-only global 'window' should not be modified                          no-global-assign
-
-/packages/eslint-config-qiwi/src/test/ts/rules/trailing-comma-fail.ts
-  3:7   error  Missing trailing comma     comma-dangle
-  9:17  error  Unexpected trailing comma  comma-dangle
-
-✖ 64 problems (64 errors, 0 warnings)
-  26 errors and 0 warnings potentially fixable with the \`--fix\` option.",
+✖ 45 problems (37 errors, 8 warnings)
+  10 errors and 0 warnings potentially fixable with the \`--fix\` option.",
 }
 `;
