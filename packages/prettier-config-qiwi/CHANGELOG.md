@@ -1,3 +1,13 @@
+## prettier-config-qiwi [2.0.1](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@2.0.0...prettier-config-qiwi@2.0.1) (2022-11-30)
+
+
+
+
+
+### Dependencies
+
+* **@qiwi/lint-config-infra:** upgraded to 2.0.1
+
 # prettier-config-qiwi [2.0.0](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@1.7.3...prettier-config-qiwi@2.0.0) (2022-11-30)
 
 
