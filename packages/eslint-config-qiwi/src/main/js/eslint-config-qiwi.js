@@ -1,3 +1,5 @@
+/* eslint max-lines: 0 */
+
 module.exports = {
   env: {
     es2022: true,
