@@ -1,5 +1,7 @@
-import {generateSnapshot} from '@qiwi/stdstream-snapshot'
-import {resolve} from 'path'
+import { resolve } from 'node:path'
+
+import { generateSnapshot } from '@qiwi/stdstream-snapshot'
+
 import * as config from '../../main/js/eslint-config-qiwi.js'
 
 describe('eslint-config-qiwi (TypeScript)', () => {
@@ -12,7 +14,7 @@ describe('eslint-config-qiwi (TypeScript)', () => {
     const rulesPath = resolve(__dirname, 'rules/*.ts')
     const eslint = resolve(__dirname, '../../../../../node_modules/.bin/eslint')
     const result = await generateSnapshot({
-      cmd: `${eslint} --config ${configPath} ${rulesPath}`
+      cmd: `${eslint} --config ${configPath} ${rulesPath} --no-ignore`,
     })
 
     expect(result).toMatchSnapshot()
