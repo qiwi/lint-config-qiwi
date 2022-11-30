@@ -1,1 +1,1 @@
-module.exports = require('prettier-config-qiwi')
+module.exports = require('../infra/.prettierrc.json')

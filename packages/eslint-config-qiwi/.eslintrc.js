@@ -1,1 +1,1 @@
-module.exports = require('eslint-config-qiwi')
+module.exports = require('../infra/.eslintrc.json')
