@@ -1,11 +1,5 @@
 {
   "extends": [
     "eslint-config-qiwi"
-  ],
-  "rules": {
-    "unicorn/no-null": "off",
-    "unicorn/prefer-module": "off",
-    "unicorn/prevent-abbreviations": "off",
-    "unicorn/text-encoding-identifier-case": "off"
-  }
+  ]
 }
