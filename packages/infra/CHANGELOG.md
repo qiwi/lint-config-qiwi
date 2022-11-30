@@ -1,3 +1,10 @@
+## @qiwi/lint-config-infra [2.0.1](https://github.com/qiwi/lint-config-qiwi/compare/@qiwi/lint-config-infra@2.0.0...@qiwi/lint-config-infra@2.0.1) (2022-11-30)
+
+
+### Bug Fixes
+
+* off some unicorn rules ([#170](https://github.com/qiwi/lint-config-qiwi/issues/170)) ([e056c2c](https://github.com/qiwi/lint-config-qiwi/commit/e056c2cea45314ab067a08fb95b3165f2518be6a))
+
 # @qiwi/lint-config-infra [2.0.0](https://github.com/qiwi/lint-config-qiwi/compare/@qiwi/lint-config-infra@1.0.3...@qiwi/lint-config-infra@2.0.0) (2022-11-30)
 
 
