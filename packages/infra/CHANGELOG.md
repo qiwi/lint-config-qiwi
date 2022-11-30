@@ -1,3 +1,15 @@
+# @qiwi/lint-config-infra [2.0.0](https://github.com/qiwi/lint-config-qiwi/compare/@qiwi/lint-config-infra@1.0.3...@qiwi/lint-config-infra@2.0.0) (2022-11-30)
+
+
+### Code Refactoring
+
+* flatten eslint rules, prettier sort imports, drop tslint, update deps ([#169](https://github.com/qiwi/lint-config-qiwi/issues/169)) ([c93abff](https://github.com/qiwi/lint-config-qiwi/commit/c93abff4498b392cfc1749972ae45026efd72248))
+
+
+### BREAKING CHANGES
+
+* remove extends and move all recomended rules in eslint config, remove formatting rules, use prettier
+
 ## @qiwi/lint-config-infra [1.0.3](https://github.com/qiwi/lint-config-qiwi/compare/@qiwi/lint-config-infra@1.0.2...@qiwi/lint-config-infra@1.0.3) (2022-10-13)
 
 
