@@ -1,3 +1,10 @@
+## eslint-config-qiwi [2.0.3](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.2...eslint-config-qiwi@2.0.3) (2022-12-05)
+
+
+### Bug Fixes
+
+* off some unicorn rules ([#172](https://github.com/qiwi/lint-config-qiwi/issues/172)) ([5253d9a](https://github.com/qiwi/lint-config-qiwi/commit/5253d9a556b374108428ed7d4fb772b532a4a005))
+
 ## eslint-config-qiwi [2.0.2](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.1...eslint-config-qiwi@2.0.2) (2022-12-01)
 
 
