@@ -140,7 +140,7 @@
     "unicorn/new-for-builtins": "error",
     "new-parens": "off",
     "newline-per-chained-call": "off",
-    "unicorn/no-abusive-eslint-disable": "error",
+    "unicorn/no-abusive-eslint-disable": "off",
     "sonarjs/no-all-duplicated-branches": "error",
     "unicorn/no-array-callback-reference": "error",
     "no-array-constructor": "off",
