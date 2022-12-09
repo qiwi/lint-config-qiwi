@@ -1,3 +1,10 @@
+## eslint-config-qiwi [2.0.5](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.4...eslint-config-qiwi@2.0.5) (2022-12-09)
+
+
+### Bug Fixes
+
+* allow trunc shortcut ([8dd9ad7](https://github.com/qiwi/lint-config-qiwi/commit/8dd9ad76924016ba65f58ec794f98e2d99ee2e86))
+
 ## eslint-config-qiwi [2.0.4](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.3...eslint-config-qiwi@2.0.4) (2022-12-05)
 
 
