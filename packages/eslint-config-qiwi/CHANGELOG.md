@@ -1,3 +1,10 @@
+## eslint-config-qiwi [2.0.6](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.5...eslint-config-qiwi@2.0.6) (2022-12-11)
+
+
+### Bug Fixes
+
+* relax `unicorn/no-await-expression-member` and `unicorn/prefer-top-level-await` checks ([068bc7a](https://github.com/qiwi/lint-config-qiwi/commit/068bc7a26c255fba48b0f50c9942027d5b9a86c3))
+
 ## eslint-config-qiwi [2.0.5](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.4...eslint-config-qiwi@2.0.5) (2022-12-09)
 
 
