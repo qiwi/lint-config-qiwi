@@ -142,7 +142,7 @@
     "newline-per-chained-call": "off",
     "unicorn/no-abusive-eslint-disable": "off",
     "sonarjs/no-all-duplicated-branches": "error",
-    "unicorn/no-array-callback-reference": "error",
+    "unicorn/no-array-callback-reference": "off",
     "no-array-constructor": "off",
     "@typescript-eslint/no-array-constructor": "error",
     "unicorn/no-array-for-each": "off",
