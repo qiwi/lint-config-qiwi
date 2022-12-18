@@ -1,3 +1,10 @@
+## eslint-config-qiwi [2.0.7](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.6...eslint-config-qiwi@2.0.7) (2022-12-18)
+
+
+### Bug Fixes
+
+* allow fn ref as iterator ([d647bbf](https://github.com/qiwi/lint-config-qiwi/commit/d647bbfce6023460733db13c06f973d247c360b6))
+
 ## eslint-config-qiwi [2.0.6](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.5...eslint-config-qiwi@2.0.6) (2022-12-11)
 
 
