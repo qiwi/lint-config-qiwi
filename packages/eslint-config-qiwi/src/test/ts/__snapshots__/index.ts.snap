@@ -8,7 +8,7 @@ exports[`eslint-config-qiwi (TypeScript) config works as expected 1`] = `
     "signal": null,
   },
   "stderr": "",
-  "stdout": "/src/test/ts/rules/some-rules.ts
+  "stdout": "/packages/eslint-config-qiwi/src/test/ts/rules/some-rules.ts
    1:1   error    Do not use "@ts-nocheck" because it alters compilation errors             @typescript-eslint/ban-ts-comment
    5:7   warning  'name' is assigned a value but never used                                 @typescript-eslint/no-unused-vars
    6:7   error    'namefoo' is never reassigned. Use 'const' instead                        prefer-const
