@@ -427,7 +427,7 @@
     "vue/space-unary-ops": "off",
     "space-unary-word-ops": "off",
     "unicorn/string-content": "off",
-    "unicorn/switch-case-braces": "error",
+    "unicorn/switch-case-braces": "off",
     "switch-colon-spacing": "off",
     "template-curly-spacing": "off",
     "vue/template-curly-spacing": "off",
