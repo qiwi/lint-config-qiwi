@@ -8,7 +8,7 @@ exports[`eslint-config-qiwi (TypeScript) config works as expected 1`] = `
     "signal": null,
   },
   "stderr": "",
-  "stdout": "/packages/eslint-config-qiwi/src/test/ts/rules/some-rules.ts
+  "stdout": "/src/test/ts/rules/some-rules.ts
    1:1   error    Do not use "@ts-nocheck" because it alters compilation errors             @typescript-eslint/ban-ts-comment
    5:7   warning  'name' is assigned a value but never used                                 @typescript-eslint/no-unused-vars
    6:7   error    'namefoo' is never reassigned. Use 'const' instead                        prefer-const
@@ -30,14 +30,11 @@ exports[`eslint-config-qiwi (TypeScript) config works as expected 1`] = `
   11:9   warning  'myRegex' is assigned a value but never used                              @typescript-eslint/no-unused-vars
   11:19  error    Empty class                                                               no-empty-character-class
   13:3   error    Unexpected var, use let or const instead                                  no-var
-  15:5   error    Missing braces in case clause                                             unicorn/switch-case-braces
   17:5   error    Duplicate case label                                                      no-duplicate-case
   17:5   error    This case's code block is the same as the block for the case on line 15   sonarjs/no-duplicated-branches
   17:5   error    Expected a 'break' statement before 'case'                                no-fallthrough
-  17:5   error    Missing braces in case clause                                             unicorn/switch-case-braces
   19:5   error    This case's code block is the same as the block for the case on line 17   sonarjs/no-duplicated-branches
   19:5   error    Expected a 'break' statement before 'case'                                no-fallthrough
-  19:5   error    Missing braces in case clause                                             unicorn/switch-case-braces
   27:7   error    Do not use the '===' operator to compare against -0                       no-compare-neg-zero
   28:10  error    This number literal will lose precision at runtime                        @typescript-eslint/no-loss-of-precision
   28:10  error    Octal literals should not be used                                         no-octal
@@ -58,7 +55,7 @@ exports[`eslint-config-qiwi (TypeScript) config works as expected 1`] = `
   64:33  error    Empty block statement                                                     no-empty
   67:1   error    Read-only global 'window' should not be modified                          no-global-assign
 
-✖ 48 problems (40 errors, 8 warnings)
-  13 errors and 0 warnings potentially fixable with the \`--fix\` option.",
+✖ 45 problems (37 errors, 8 warnings)
+  10 errors and 0 warnings potentially fixable with the \`--fix\` option.",
 }
 `;
