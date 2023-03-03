@@ -1,3 +1,10 @@
+## eslint-config-qiwi [2.0.9](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.8...eslint-config-qiwi@2.0.9) (2023-03-03)
+
+
+### Bug Fixes
+
+* allow switch-case without braces ([#181](https://github.com/qiwi/lint-config-qiwi/issues/181)) ([74bcf43](https://github.com/qiwi/lint-config-qiwi/commit/74bcf438efd6bccadabcb36bdc4e6c432ddac1cc))
+
 ## eslint-config-qiwi [2.0.8](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.7...eslint-config-qiwi@2.0.8) (2023-01-11)
 
 
