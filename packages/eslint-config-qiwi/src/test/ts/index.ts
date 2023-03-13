@@ -2,7 +2,7 @@ import { resolve } from 'node:path'
 
 import { generateSnapshot } from '@qiwi/stdstream-snapshot'
 
-import * as config from '../../main/js/eslint-config-qiwi.js'
+import * as config from '../../main/js/index.js'
 
 describe('eslint-config-qiwi (TypeScript)', () => {
   it('config is exposed as js', () => {
@@ -10,7 +10,7 @@ describe('eslint-config-qiwi (TypeScript)', () => {
   })
 
   it('config works as expected', async () => {
-    const configPath = resolve(__dirname, '../../main/js/eslint-config-qiwi.js')
+    const configPath = resolve(__dirname, '../../main/js/index.js')
     const rulesPath = resolve(__dirname, 'rules/*.ts')
     const eslint = resolve(__dirname, '../../../../../node_modules/.bin/eslint')
     const result = await generateSnapshot({

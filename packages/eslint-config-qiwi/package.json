@@ -2,7 +2,7 @@
   "name": "eslint-config-qiwi",
   "version": "2.0.10",
   "description": "ESLint rules related to QIWI projects",
-  "main": "src/main/js/eslint-config-qiwi.js",
+  "main": "src/main/js/index.js",
   "scripts": {
     "build": "yarn docs",
     "test": "yarn test:spec",
@@ -34,13 +34,12 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.0.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sonarjs": "^0.18.0",
-    "eslint-plugin-unicorn": "^46.0.0"
-  },
-  "peerDependencies": {
-    "eslint": "*"
+    "eslint-plugin-unicorn": "^46.0.0",
+    "typescript": "^4.0.0"
   },
   "devDependencies": {
     "@qiwi/lint-config-infra": "2.0.1",

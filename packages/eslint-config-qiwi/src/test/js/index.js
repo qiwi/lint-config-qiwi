@@ -18,5 +18,5 @@ describe('eslint-config-qiwi (JavaScript)', () => {
     })
 
     expect(result).toMatchSnapshot()
-  }, 10_000)
+  })
 })

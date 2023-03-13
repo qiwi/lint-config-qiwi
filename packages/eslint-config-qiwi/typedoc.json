@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-qiwi",
   "out": "./docs",
-  "entryPoints": ["./src/main/js/eslint-config-qiwi.js"],
+  "entryPoints": ["./src/main/js/index.js"],
   "exclude": ["test", "**/node_modules/**"],
   "externalPattern": "**/node_modules/**",
   "excludePrivate": false,
