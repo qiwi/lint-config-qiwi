@@ -16,7 +16,8 @@ const _config = {
     }
 
     return acc
-  }, {})
+  }, {}),
+  overrides: undefined
 }
 
 fs.writeFileSync(path.resolve(root, 'src/main/js/config.json'), JSON.stringify(_config, null, 2))

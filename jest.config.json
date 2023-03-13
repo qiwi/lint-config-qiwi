@@ -2,6 +2,7 @@
   "collectCoverage": true,
   "projects": [
     "<rootDir>/packages/eslint-config-qiwi/jest.config.json",
+    "<rootDir>/packages/eslint-config-qiwi-js/jest.config.json",
     "<rootDir>/packages/prettier-config-qiwi/jest.config.json"
   ],
   "testTimeout": 15000
