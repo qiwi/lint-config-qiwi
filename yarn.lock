@@ -929,18 +929,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@qiwi/lint-config-infra@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@qiwi/lint-config-infra@npm:2.0.1"
-  bin:
-    buildstamp: node_modules/.bin/buildstamp
-    jest: node_modules/.bin/jest
-    tsc: node_modules/.bin/tsc
-    typedoc: node_modules/.bin/typedoc
-  checksum: 7535e66c4d9e59d1cf70379304474400885d99c3e9c1b07cba1823351286a840afdb88417403da7458c27a22b47d61e3c62ea45e08030ce87f4b0714ed3de92f
-  languageName: node
-  linkType: hard
-
 "@qiwi/lint-config-monorepo@workspace:.":
   version: 0.0.0-use.local
   resolution: "@qiwi/lint-config-monorepo@workspace:."
@@ -5118,7 +5106,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "prettier-config-qiwi@workspace:packages/prettier-config-qiwi"
   dependencies:
-    "@qiwi/lint-config-infra": 2.0.1
+    "@qiwi/lint-config-infra": 2.1.0
     "@swissquote/crafty-preset-jest": ^1.21.1
     "@trivago/prettier-plugin-sort-imports": ^4.1.1
     jest: ^29.5.0
