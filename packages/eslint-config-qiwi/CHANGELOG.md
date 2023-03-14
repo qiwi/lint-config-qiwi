@@ -1,3 +1,18 @@
+# eslint-config-qiwi [2.1.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.10...eslint-config-qiwi@2.1.0) (2023-03-14)
+
+
+### Features
+
+* refactor ts and js rules ([#183](https://github.com/qiwi/lint-config-qiwi/issues/183)) ([82fe590](https://github.com/qiwi/lint-config-qiwi/commit/82fe590a7d95e89db6b3710fca2f78483889b616))
+
+
+
+
+
+### Dependencies
+
+* **@qiwi/lint-config-infra:** upgraded to 2.1.0
+
 ## eslint-config-qiwi [2.0.10](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.9...eslint-config-qiwi@2.0.10) (2023-03-04)
 
 
