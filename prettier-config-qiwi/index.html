@@ -25,27 +25,27 @@
 <a href="#install" id="install" style="color: inherit; text-decoration: none;">
   <h2>Install</h2>
 </a>
-<pre><code class="language-bash"><span class="hl-0">npm add prettier-config-qiwi -D</span><br/><span class="hl-0">yarn add prettier-config-qiwi -D</span>
+<pre><code class="language-bash"><span class="hl-0">npm </span><span class="hl-1">add</span><span class="hl-0"> </span><span class="hl-1">prettier-config-qiwi</span><span class="hl-0"> </span><span class="hl-1">-D</span><br/><span class="hl-0">yarn </span><span class="hl-1">add</span><span class="hl-0"> </span><span class="hl-1">prettier-config-qiwi</span><span class="hl-0"> </span><span class="hl-1">-D</span>
 </code></pre>
 
 <a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
   <h2>Usage</h2>
 </a>
 <p>Add in your <code>package.json</code>:</p>
-<pre><code class="language-json"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-1">&quot;prettier&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;prettier-config-qiwi&quot;</span><br/><span class="hl-0">}</span>
+<pre><code class="language-json"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-2">&quot;prettier&quot;</span><span class="hl-0">: </span><span class="hl-1">&quot;prettier-config-qiwi&quot;</span><br/><span class="hl-0">}</span>
 </code></pre>
 <p>If you want overwrite some properties, you need import the file in a .prettierrc.js file and export the modifications:</p>
-<pre><code class="language-javascript"><span class="hl-3">module</span><span class="hl-0">.</span><span class="hl-3">exports</span><span class="hl-0"> = {</span><br/><span class="hl-0">    ...</span><span class="hl-4">require</span><span class="hl-0">(</span><span class="hl-2">&#39;prettier-config-qiwi&#39;</span><span class="hl-0">),</span><br/><span class="hl-0">    </span><span class="hl-5">semi:</span><span class="hl-0"> </span><span class="hl-6">false</span><span class="hl-0">,</span><br/><span class="hl-0">}</span>
+<pre><code class="language-javascript"><span class="hl-3">module</span><span class="hl-0">.</span><span class="hl-3">exports</span><span class="hl-0"> = {</span><br/><span class="hl-0">    ...</span><span class="hl-4">require</span><span class="hl-0">(</span><span class="hl-1">&#39;prettier-config-qiwi&#39;</span><span class="hl-0">),</span><br/><span class="hl-0">    </span><span class="hl-5">semi:</span><span class="hl-0"> </span><span class="hl-6">false</span><span class="hl-0">,</span><br/><span class="hl-0">}</span>
 </code></pre>
 <p><a href="https://prettier.io/docs/en/cli.html">Run</a> format your code:</p>
-<pre><code class="language-bash"><span class="hl-0">prettier --write </span><span class="hl-2">&quot;src/**/*.ts&quot;</span>
+<pre><code class="language-bash"><span class="hl-0">prettier </span><span class="hl-1">--write</span><span class="hl-0"> </span><span class="hl-1">&quot;src/**/*.ts&quot;</span>
 </code></pre>
 
 <a href="#contribution" id="contribution" style="color: inherit; text-decoration: none;">
   <h2>Contribution</h2>
 </a>
 <p>If you find this config not strong enough you may add additional rules, write some tests, and trigger assets generation.</p>
-<pre><code class="language-bash"><span class="hl-0">yarn </span><span class="hl-4">test</span>
+<pre><code class="language-bash"><span class="hl-0">yarn </span><span class="hl-1">test</span>
 </code></pre>
 
 <a href="#license" id="license" style="color: inherit; text-decoration: none;">
