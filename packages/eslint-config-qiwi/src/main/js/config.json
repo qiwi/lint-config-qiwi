@@ -16,7 +16,6 @@
     "sonarjs",
     "unicorn"
   ],
-  "parser": "espree",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true

@@ -41,7 +41,7 @@
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
-    "typescript": "^4.0.0"
+    "typescript": "*"
   },
   "devDependencies": {
     "@qiwi/lint-config-infra": "2.1.0",
