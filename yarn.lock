@@ -2406,7 +2406,7 @@ __metadata:
     typescript: ^4.9.5
   peerDependencies:
     eslint: ^8.0.0
-    typescript: ^4.0.0
+    typescript: "*"
   languageName: unknown
   linkType: soft
 
