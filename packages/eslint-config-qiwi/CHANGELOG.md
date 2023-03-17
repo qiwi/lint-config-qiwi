@@ -1,3 +1,10 @@
+## eslint-config-qiwi [2.1.1](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.1.0...eslint-config-qiwi@2.1.1) (2023-03-17)
+
+
+### Bug Fixes
+
+* rm default `parser` value to avoid depcheck alerts, relax typescript v range ([7729243](https://github.com/qiwi/lint-config-qiwi/commit/772924398215b8c43bc89a913a58bfa747b22682))
+
 # eslint-config-qiwi [2.1.0](https://github.com/qiwi/lint-config-qiwi/compare/eslint-config-qiwi@2.0.10...eslint-config-qiwi@2.1.0) (2023-03-14)
 
 
