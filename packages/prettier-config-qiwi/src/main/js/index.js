@@ -7,4 +7,5 @@ module.exports = {
   importOrderSortSpecifiers: true,
   importOrderCaseInsensitive: true,
   importOrderGroupNamespaceSpecifiers: true,
+  importOrderParserPlugins: ['typescript', 'jsx', 'importAssertions'],
 }
