@@ -18,5 +18,5 @@
     "deps:update": "npx npm-upgrade-monorepo",
     "postupdate": "yarn && npx browserslist@latest --update-db && npx yarn-audit-fix && yarn build && yarn test"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@3.5.1"
 }

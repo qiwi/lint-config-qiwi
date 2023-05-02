@@ -1,3 +1,10 @@
+## prettier-config-qiwi [2.1.1](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@2.1.0...prettier-config-qiwi@2.1.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* support decorators ([#191](https://github.com/qiwi/lint-config-qiwi/issues/191)) ([e1fed6e](https://github.com/qiwi/lint-config-qiwi/commit/e1fed6e79d07d38585a3d70c2828d077edba4836))
+
 # prettier-config-qiwi [2.1.0](https://github.com/qiwi/lint-config-qiwi/compare/prettier-config-qiwi@2.0.1...prettier-config-qiwi@2.1.0) (2023-03-14)
 
 
