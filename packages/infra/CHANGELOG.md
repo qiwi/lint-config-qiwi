@@ -1,3 +1,10 @@
+## @qiwi/lint-config-infra [2.1.1](https://github.com/qiwi/lint-config-qiwi/compare/@qiwi/lint-config-infra@2.1.0...@qiwi/lint-config-infra@2.1.1) (2023-05-05)
+
+
+### Bug Fixes
+
+* update sonar plugin to v0.19.0 ([d72e25e](https://github.com/qiwi/lint-config-qiwi/commit/d72e25e6bee85805b0af76d46fb5c8dedc7b1875))
+
 # @qiwi/lint-config-infra [2.1.0](https://github.com/qiwi/lint-config-qiwi/compare/@qiwi/lint-config-infra@2.0.1...@qiwi/lint-config-infra@2.1.0) (2023-03-14)
 
 
