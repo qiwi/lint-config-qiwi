@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qiwi",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "ESLint rules related to QIWI projects",
   "main": "src/main/js/index.js",
   "scripts": {
@@ -44,7 +44,7 @@
     "typescript": "*"
   },
   "devDependencies": {
-    "@qiwi/lint-config-infra": "2.1.0",
+    "@qiwi/lint-config-infra": "2.1.1",
     "@qiwi/stdstream-snapshot": "^1.2.9",
     "@swissquote/crafty-preset-jest": "^1.22.3",
     "@types/jest": "^29.5.1",
