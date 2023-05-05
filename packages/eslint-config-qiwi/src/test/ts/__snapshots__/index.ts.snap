@@ -33,6 +33,7 @@ exports[`eslint-config-qiwi (TypeScript) config works as expected 1`] = `
   17:5   error    Duplicate case label                                                      no-duplicate-case
   17:5   error    This case's code block is the same as the block for the case on line 15   sonarjs/no-duplicated-branches
   17:5   error    Expected a 'break' statement before 'case'                                no-fallthrough
+  17:10  error    This case duplicates the one on line 15                                   sonarjs/no-identical-conditions
   19:5   error    This case's code block is the same as the block for the case on line 17   sonarjs/no-duplicated-branches
   19:5   error    Expected a 'break' statement before 'case'                                no-fallthrough
   27:7   error    Do not use the '===' operator to compare against -0                       no-compare-neg-zero
@@ -55,7 +56,7 @@ exports[`eslint-config-qiwi (TypeScript) config works as expected 1`] = `
   64:33  error    Empty block statement                                                     no-empty
   67:1   error    Read-only global 'window' should not be modified                          no-global-assign
 
-✖ 45 problems (37 errors, 8 warnings)
+✖ 46 problems (38 errors, 8 warnings)
   10 errors and 0 warnings potentially fixable with the \`--fix\` option.",
 }
 `;
