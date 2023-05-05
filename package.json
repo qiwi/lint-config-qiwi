@@ -10,7 +10,7 @@
     "test": "yarn test:unit",
     "test:unit": "node_modules/.bin/jest --runInBand",
     "test:report": "yarn test && yarn coveralls:push",
-    "test:u": "yarn workspaces foreach -p run test:u --concurrency 1",
+    "test:u": "yarn test:unit -u",
     "coveralls:push": "cat ./coverage/lcov.info | npm_config_yes=true npx coveralls || echo 'coveralls push failed :(' && exit 0",
     "lint": "yarn workspaces foreach -p run lint",
     "format": "yarn workspaces foreach -p run format",
