@@ -3,77 +3,44 @@
 name: CI
 on: [push, pull_request]
 jobs:
-  build:
-    name: build
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-
-      - name: Fetch deps
-        run: yarn
-
-      - name: Build target
-        run: yarn build
-
-  test_push:
-    needs: build
+  push:
+    name: Push ${{ github.ref }}
     if: github.event_name == 'push'
     runs-on: ubuntu-22.04
+    permissions:
+      checks: read
+      statuses: write
+      contents: write
+      packages: write
+      id-token: write
     steps:
+      - name: Depth
+        run: echo "FETCH_DEPTH=$(echo '${{ toJSON(github.event.commits) }}' | jq 'length | if . < 20 then . + 1 else 0 end')" >> $GITHUB_ENV
+
       - name: Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-
-      - name: Fetch deps
-        run: yarn
-
-      - name: Unit tests
-        run: yarn test
-
-  test_pr:
-    if: github.event_name == 'pull_request'
-    needs: build
-    strategy:
-      matrix:
-        os: [ ubuntu-22.04 ]
-        node-version: [ 18, 20 ]
-    name: Test (Node v${{ matrix.node-version }}, OS ${{ matrix.os }})
-    runs-on: ${{ matrix.os }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: ${{ env.FETCH_DEPTH }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 20
+          cache: 'yarn'
 
-      - name: Fetch deps
-        run: yarn
+      - name: Install deps
+        run: |
+          sudo apt-get install moreutils
+          yarn --silent --immutable
+
+      - name: Build
+        run: yarn build
 
       - name: Test
         run: yarn test
 
-  release:
-    name: Release
-    # https://github.community/t/trigger-job-on-tag-push-only/18076
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-    needs: test_push
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-
       - name: Codeclimate
+        if: github.ref == 'refs/heads/master'
         uses: paambaati/codeclimate-action@v5.0.0
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
@@ -81,10 +48,47 @@ jobs:
           coverageLocations: |
             ${{github.workspace}}/coverage/lcov.info:lcov
 
-      - name: Release
+      - name: Semantic Release
+        if: github.ref == 'refs/heads/master'
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIT_COMMITTER_EMAIL: 'opensource@qiwi.com'
-          GIT_COMMITTER_NAME: 'qiwibot'
-        run: npm_config_yes=true npx zx-semrel
+          NPM_PROVENANCE: true
+          GH_USER: ${{ secrets.GH_USER }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIT_AUTHOR_NAME: ${{ secrets.GIT_AUTHOR_NAME }}
+          GIT_AUTHOR_EMAIL: ${{ secrets.GIT_AUTHOR_EMAIL }}
+          GIT_COMMITTER_NAME: ${{ secrets.GIT_COMMITTER_NAME }}
+          GIT_COMMITTER_EMAIL: ${{ secrets.GIT_COMMITTER_EMAIL }}
+        run: npm_config_yes=true npx zx-bulk-release --no-build
+
+  pr:
+    if: github.event_name == 'pull_request'
+    name: PR (Node v${{ matrix.node-version }}, OS ${{ matrix.os }})
+    strategy:
+      matrix:
+        os: [ ubuntu-22.04 ]
+        node-version: [ 16, 20 ]
+
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
+
+      - name: Install deps
+        run: |
+          sudo apt-get install moreutils
+          yarn --silent --immutable
+
+      - name: Build
+        run: yarn build
+
+      - name: Test
+        run: yarn test
