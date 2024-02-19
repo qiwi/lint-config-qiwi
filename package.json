@@ -6,17 +6,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "yarn workspaces foreach -p run build",
+    "build": "yarn workspaces foreach -p --all run build",
     "test": "yarn test:unit",
     "test:unit": "node_modules/.bin/jest --runInBand",
     "test:report": "yarn test && yarn coveralls:push",
     "test:u": "yarn test:unit -u",
     "coveralls:push": "cat ./coverage/lcov.info | npm_config_yes=true npx coveralls || echo 'coveralls push failed :(' && exit 0",
-    "lint": "yarn workspaces foreach -p run lint",
-    "format": "yarn workspaces foreach -p run format",
-    "docs": "yarn workspaces foreach -p run docs && touch ./docs/.nojekyll || exit 0",
+    "lint": "yarn workspaces foreach -p --all run lint",
+    "format": "yarn workspaces foreach -p --all run format",
+    "docs": "yarn workspaces foreach -p --all run docs && touch ./docs/.nojekyll || exit 0",
     "deps:update": "npx npm-upgrade-monorepo",
     "postupdate": "yarn && npx browserslist@latest --update-db && npx yarn-audit-fix && yarn build && yarn test"
   },
-  "packageManager": "yarn@3.8.0"
+  "packageManager": "yarn@4.1.0"
 }
