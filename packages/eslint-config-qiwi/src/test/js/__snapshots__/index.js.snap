@@ -12,8 +12,8 @@ exports[`eslint-config-qiwi (JavaScript) config works as expected 1`] = `
    4:17  error  Do not use useless \`undefined\`                                            unicorn/no-useless-undefined
    5:22  error  Unnecessary escape character: \\o                                          no-useless-escape
    6:18  error  Unexpected control character(s) in regular expression: \\x1f               no-control-regex
-   6:18  error  Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape
    6:18  error  Use uppercase characters for the value of the escape sequence             unicorn/escape-case
+   6:18  error  Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape
    7:29  error  Unexpected control character(s) in regular expression: \\x1f               no-control-regex
    7:29  error  Use uppercase characters for the value of the escape sequence             unicorn/escape-case
    7:29  error  Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape

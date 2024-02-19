@@ -25,7 +25,7 @@ export const bar = (foo) => {
   }
 
   if (sw === -0) {
-    sw = 071
+    sw = 0o71
     function declaration() { }
   }
 
