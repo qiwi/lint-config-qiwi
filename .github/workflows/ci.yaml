@@ -3,22 +3,8 @@
 name: CI
 on: [push, pull_request]
 jobs:
-  init:
-    name: init
-    runs-on: ubuntu-24.04
-    outputs:
-      skip: ${{ steps.ci-skip-step.outputs.ci-skip }}
-      skip-not: ${{ steps.ci-skip-step.outputs.ci-skip-not }}
-    steps:
-      - uses: actions/checkout@v4
-
-      - id: ci-skip-step
-        uses: mstachniuk/ci-skip@v1
-
   build:
     name: build
-    needs: init
-    if: ${{ needs.init.outputs.skip == 'false' }}
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
@@ -58,7 +44,7 @@ jobs:
       - name: Restore target
         uses: actions/download-artifact@v4
         with:
-          name: artifact-${{ github.run_id }}
+          name: artifact-${{ github.run_id }}-target
 
       - uses: actions/setup-node@v4
         with:
@@ -74,9 +60,15 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: actions/upload-artifact@v4
         with:
-          name: artifact-${{ github.run_id }}
+          name: artifact-${{ github.run_id }}-coverage
           retention-days: 1
           path: coverage
+
+      - name: Merge Artifacts
+        uses: actions/upload-artifact/merge@v4
+        with:
+          name: artifact-${{ github.run_id }}-merged
+          pattern: artifact-${{ github.run_id }}-*
 
   test_pr:
     if: github.event_name == 'pull_request'
@@ -101,10 +93,10 @@ jobs:
       - name: Install deps
         run: yarn
       - name: Unit test only
-        if: matrix.node-version != '18' || matrix.os != 'ubuntu-20.04'
+        if: matrix.node-version != '18' || matrix.os != 'ubuntu-24.04'
         run: yarn test
       - name: Full test with report
-        if: matrix.node-version == '18' && matrix.os == 'ubuntu-20.04'
+        if: matrix.node-version == '18' && matrix.os == 'ubuntu-24.04'
         run: yarn test:report
 
   release:
@@ -121,7 +113,7 @@ jobs:
       - name: Restore target
         uses: actions/download-artifact@v4
         with:
-          name: artifact-${{ github.run_id }}
+          name: artifact-${{ github.run_id }}-merged
       - uses: actions/setup-node@v4
         with:
           node-version: 18
