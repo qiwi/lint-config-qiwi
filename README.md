@@ -1,6 +1,6 @@
 # Lint-config-qiwi
 
-[![CI](https://github.com/qiwi/lint-config-qiwi/workflows/CI/badge.svg)](https://github.com/qiwi/lint-config-qiwi/actions)
+[![CI](https://github.com/qiwi/lint-config-qiwi/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/qiwi/lint-config-qiwi/actions/workflows/ci.yaml)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/test_coverage)](https://codeclimate.com/github/qiwi/lint-config-qiwi/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/maintainability)](https://codeclimate.com/github/qiwi/lint-config-qiwi/maintainability)
 
