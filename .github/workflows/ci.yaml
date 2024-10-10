@@ -23,7 +23,7 @@ jobs:
       - name: Save target (artifact)
         uses: actions/upload-artifact@v4
         with:
-          name: artifact-${{ github.run_id }}
+          name: artifact-${{ github.run_id }}-target
           retention-days: 1
           # If a wildcard pattern is used, the path hierarchy will be preserved after the first wildcard pattern.
           # https://github.com/actions/upload-artifact#upload-using-multiple-paths-and-exclusions
