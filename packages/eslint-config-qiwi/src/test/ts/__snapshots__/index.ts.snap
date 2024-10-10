@@ -20,8 +20,8 @@ exports[`eslint-config-qiwi (TypeScript) config works as expected 1`] = `
    8:3   error    Unexpected var, use let or const instead                                  no-var
    8:7   warning  'pattern1' is assigned a value but never used                             @typescript-eslint/no-unused-vars
    8:18  error    Unexpected control character(s) in regular expression: \\x1f               no-control-regex
-   8:18  error    Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape
    8:18  error    Use uppercase characters for the value of the escape sequence             unicorn/escape-case
+   8:18  error    Use Unicode escapes instead of hexadecimal escapes                        unicorn/no-hex-escape
    9:3   error    Unexpected var, use let or const instead                                  no-var
    9:7   warning  'pattern2' is assigned a value but never used                             @typescript-eslint/no-unused-vars
    9:29  error    Unexpected control character(s) in regular expression: \\x1f               no-control-regex
