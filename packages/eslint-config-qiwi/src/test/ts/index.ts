@@ -14,7 +14,7 @@ describe('eslint-config-qiwi (TypeScript)', () => {
     const rulesPath = resolve(__dirname, 'rules/*.ts')
     const eslint = resolve(__dirname, '../../../../../node_modules/.bin/eslint')
     const result = await generateSnapshot({
-      cmd: `${eslint} --config ${configPath} ${rulesPath} --no-ignore`,
+      cmd: `NODE_OPTIONS=--trace-deprecation ${eslint} --config ${configPath} ${rulesPath} --no-ignore`,
     })
 
     expect(result).toMatchSnapshot()
