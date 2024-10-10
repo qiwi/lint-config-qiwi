@@ -1,44 +1,23 @@
-import { execSync } from 'node:child_process'
-import {
-  copyFileSync,
-  existsSync,
-  mkdirSync,
-  readFileSync,
-  rmdirSync,
-} from 'node:fs'
-import { resolve } from 'node:path'
-
+import * as cp from 'node:child_process'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 import * as prettierConfig from '../../main/js'
 
-describe('', () => {
-  const tmpDir = resolve(__dirname, '../../../../../tmp')
+const root = path.resolve(__dirname, '../../../../../')
+const pkgRoot = path.resolve(root, 'packages/prettier-config-qiwi')
+const bin = path.resolve(root, 'node_modules/.bin/prettier')
 
-  beforeAll(() => {
-    if (existsSync(tmpDir)) {
-      rmdirSync(tmpDir, { recursive: true })
-    }
-    mkdirSync(tmpDir)
-  })
-
+describe('prettier', () => {
   it('prettierConfig', () => {
     expect(prettierConfig).toBeDefined()
   })
 
   it('formats as expected', async () => {
-    const configPath = resolve(__dirname, '../../main/js/index.js')
+    const configPath = path.resolve(pkgRoot, 'src/main/js/index.js')
+    const input = path.resolve(pkgRoot, 'src/test/fixtures/input.ts')
+    const output = path.resolve(pkgRoot, 'src/test/fixtures/output.ts')
 
-    const prettier = resolve(
-      __dirname,
-      '../../../../../node_modules/.bin/prettier',
-    )
-    const input = resolve(__dirname, '../fixtures/input.ts')
-    const output = resolve(__dirname, '../fixtures/output.ts')
-    const temp = resolve(tmpDir, 'index.ts')
-
-    copyFileSync(input, temp)
-
-    execSync(`${prettier} --config ${configPath} --write ${temp}`)
-
-    expect(readFileSync(temp, 'utf-8')).toBe(readFileSync(output, 'utf-8'))
+    const result = cp.execSync(`${bin} ${input} --config ${configPath}`).toString()
+    expect(result).toBe(fs.readFileSync(output, 'utf-8'))
   })
 })
