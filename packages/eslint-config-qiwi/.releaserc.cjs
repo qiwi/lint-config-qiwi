@@ -1,5 +1,5 @@
 module.exports = {
-  buildCmd: 'yarn build',
+  ...require('../../.releaserc.cjs'),
   changelog: 'changelog',
   ghPages: {
     branch: 'gh-pages',
