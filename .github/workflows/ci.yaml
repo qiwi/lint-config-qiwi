@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: 'yarn'
 
       - name: Install deps
         run: yarn
@@ -49,6 +50,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: 'yarn'
 
       - name: Install deps
         run: yarn
@@ -90,6 +92,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
       - name: Install deps
         run: yarn
       - name: Unit test only
@@ -103,13 +106,23 @@ jobs:
     name: Release
     # https://github.community/t/trigger-job-on-tag-push-only/18076
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    permissions:
+      checks: read
+      statuses: write
+      contents: write
+      packages: write
+      id-token: write
     needs: test_push
     runs-on: ubuntu-24.04
     steps:
+      - name: Fetch depth
+        run: echo "FETCH_DEPTH=$(echo '${{ toJSON(github.event.commits) }}' | jq 'length | if . < 20 then . + 1 else 0 end')" >> $GITHUB_ENV
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          fetch-depth: ${{ env.FETCH_DEPTH }}
+
       - name: Restore target
         uses: actions/download-artifact@v4
         with:
@@ -126,20 +139,14 @@ jobs:
           coverageLocations: |
             ${{github.workspace}}/coverage/*.lcov:lcov
 
-      - name: Install deps
-        run: |
-          npm i -g npm@latest
-          npm -v
-          yarn -v
-          yarn
-
-      - name: Multi-semantic-release
+      - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_USER: 'qiwibot'
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GIT_AUTHOR_EMAIL: 'opensource@qiwi.com'
           GIT_COMMITTER_EMAIL: 'opensource@qiwi.com'
-          GIT_AUTHOR_NAME: '@qiwibot'
-          GIT_COMMITTER_NAME: '@qiwibot'
-        run: npx -p @qiwi/semrel-toolkit multi-semrel
+          GIT_AUTHOR_NAME: 'QIWI Bot'
+          GIT_COMMITTER_NAME: 'QIWI Bot'
+          YARN_ENABLE_IMMUTABLE_INSTALLS: false
+        run: npm_config_yes=true npx zx-bulk-release
