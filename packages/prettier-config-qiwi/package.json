@@ -32,14 +32,14 @@
     "@trivago/prettier-plugin-sort-imports": "^4.1.1"
   },
   "peerDependencies": {
-    "prettier": "^2.0.0",
+    "prettier": "^3.0.0",
     "typescript": "^5.0.0"
   },
   "devDependencies": {
     "@qiwi/lint-config-infra": "2.1.1",
     "@swissquote/crafty-preset-jest": "^1.22.3",
     "jest": "^29.5.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "stdstream-snapshot": "^1.2.9",
     "ts-jest": "^29.1.0",
     "typescript": "^5.0.4"
