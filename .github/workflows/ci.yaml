@@ -83,8 +83,8 @@ jobs:
     needs: build
     strategy:
       matrix:
-        os: [ ubuntu-20.04 ]
-        node-version: [ 14, 18, 20 ]
+        os: [ubuntu-20.04]
+        node-version: [18, 20, 22]
     name: Test (Node v${{ matrix.node-version }}, OS ${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     steps:
