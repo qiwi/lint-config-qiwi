@@ -121,7 +121,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: ${{ env.FETCH_DEPTH }}
+          #fetch-depth: ${{ env.FETCH_DEPTH }}
+          fetch-depth: 0
 
       - name: Restore target
         uses: actions/download-artifact@v4
