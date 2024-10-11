@@ -1,3 +1,8 @@
+## [eslint-config-qiwi@2.1.6](https://github.com/qiwi/lint-config-qiwi/compare/2.1.5-eslint-config-qiwi...2.1.6-eslint-config-qiwi) (2024-10-11)
+
+### Fixes & improvements
+* fix(deps): update dependency eslint-plugin-react-hooks to v5 [397fa9a](https://github.com/qiwi/lint-config-qiwi/commit/397fa9abc06023f8ac9c421386ca4848bd79fdad)
+
 ## [eslint-config-qiwi@2.1.5](https://github.com/qiwi/lint-config-qiwi/compare/2.1.4-eslint-config-qiwi...2.1.5-eslint-config-qiwi) (2024-10-10)
 
 ### Fixes & improvements
