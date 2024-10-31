@@ -1,3 +1,8 @@
+## [eslint-config-qiwi@2.1.7](https://github.com/qiwi/lint-config-qiwi/compare/2.1.6-eslint-config-qiwi...2.1.7-eslint-config-qiwi) (2024-10-31)
+
+### Fixes & improvements
+* fix: pin eslint-plugin-sonarjs to v2.0.2 [b22ac9a](https://github.com/qiwi/lint-config-qiwi/commit/b22ac9adf3c28f4839d8e064cf04fd4f1daa1b65)
+
 ## [eslint-config-qiwi@2.1.6](https://github.com/qiwi/lint-config-qiwi/compare/2.1.5-eslint-config-qiwi...2.1.6-eslint-config-qiwi) (2024-10-11)
 
 ### Fixes & improvements
