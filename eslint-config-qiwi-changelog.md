@@ -1,3 +1,8 @@
+## [eslint-config-qiwi@2.1.9](https://github.com/qiwi/lint-config-qiwi/compare/2.1.8-eslint-config-qiwi...2.1.9-eslint-config-qiwi) (2024-10-31)
+
+### Fixes & improvements
+* fix: disable renovate pin update [d6a8241](https://github.com/qiwi/lint-config-qiwi/commit/d6a82413d2a2d51d9106153e95f0691a45627adc)
+
 ## [eslint-config-qiwi@2.1.8](https://github.com/qiwi/lint-config-qiwi/compare/2.1.7-eslint-config-qiwi...2.1.8-eslint-config-qiwi) (2024-10-31)
 
 ### Fixes & improvements
