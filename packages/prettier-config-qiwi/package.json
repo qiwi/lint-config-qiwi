@@ -29,7 +29,7 @@
   "author": "QIWI <opensource@qiwi.com>",
   "license": "MIT",
   "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.3.0"
+    "@trivago/prettier-plugin-sort-imports": "^5.0.0"
   },
   "peerDependencies": {
     "prettier": "^3.0.0",
