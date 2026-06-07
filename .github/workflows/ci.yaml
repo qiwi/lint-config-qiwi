@@ -22,7 +22,7 @@ jobs:
         run: yarn build
 
       - name: Save target (artifact)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: artifact-${{ github.run_id }}-target
           retention-days: 1
@@ -43,7 +43,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Restore target
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: artifact-${{ github.run_id }}-target
 
@@ -60,14 +60,14 @@ jobs:
 
       - name: Push coverage
         if: github.ref == 'refs/heads/master'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: artifact-${{ github.run_id }}-coverage
           retention-days: 1
           path: coverage
 
       - name: Merge Artifacts
-        uses: actions/upload-artifact/merge@v4
+        uses: actions/upload-artifact/merge@v7
         with:
           name: artifact-${{ github.run_id }}-merged
           pattern: artifact-${{ github.run_id }}-*
@@ -86,7 +86,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Restore target
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: artifact-${{ github.run_id }}-target
       - uses: actions/setup-node@v4
@@ -125,7 +125,7 @@ jobs:
           fetch-depth: 0
 
       - name: Restore target
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: artifact-${{ github.run_id }}-merged
       - uses: actions/setup-node@v4
